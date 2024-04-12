@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <array name="config_keySystemUuidMapping" />
+    <array name="config_optionalIpSecAlgorithms" />
+    <array name="carrier_properties" />
+    <array name="common_nicknames" />
+    <array name="config_LgsiPermission_traceAppOpsPackages" />
+    <array name="config_LgsiPermission_tracePermissionPackages" />
+    <string-array name="config_ZuiPermissionPregrant_SYSTEM_ALART_WINDOW_apps">
+        <item>com.zui.udevice</item>
+    </string-array>
+    <array name="config_accessibility_allowed_install_source" />
+    <array name="config_allowedGlobalInstantAppSettings" />
+    <array name="config_allowedSecureInstantAppSettings" />
+    <array name="config_allowedSystemInstantAppSettings" />
+    <integer-array name="config_ambientBrighteningThresholds">
+        <item>100</item>
+    </integer-array>
+    <integer-array name="config_ambientDarkeningThresholds">
+        <item>200</item>
+    </integer-array>
+    <array name="config_ambientThresholdLevels" />
+    <array name="config_ambientThresholdsOfPeakRefreshRate" />
+    <integer-array name="config_apfEthTypeBlackList">
+        <item>0x000088A2</item>
+        <item>0x000088A4</item>
+        <item>0x000088B8</item>
+        <item>0x000088CD</item>
+        <item>0x000088E3</item>
+    </integer-array>
+    <array name="config_autoBrightnessButtonBacklightValues" />
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>40</item>
+        <item>40</item>
+        <item>100</item>
+        <item>150</item>
+        <item>300</item>
+        <item>420</item>
+        <item>490</item>
+        <item>500</item>
+    </integer-array>
+    <array name="config_autoBrightnessDisplayValuesNitsIdle" />
+    <array name="config_autoBrightnessKeyboardBacklightValues" />
+    <array name="config_autoBrightnessLcdBacklightValues" />
+    <array name="config_autoBrightnessLcdBacklightValues_doze" />
+    <integer-array name="config_autoBrightnessLevels">
+        <item>10</item>
+        <item>60</item>
+        <item>210</item>
+        <item>350</item>
+        <item>420</item>
+        <item>1000</item>
+        <item>1001</item>
+    </integer-array>
+    <array name="config_autoBrightnessLevelsIdle" />
+    <integer-array name="config_autoRotationTiltTolerance">
+        <item>-25</item>
+        <item>70</item>
+        <item>-25</item>
+        <item>65</item>
+        <item>-25</item>
+        <item>60</item>
+        <item>-25</item>
+        <item>65</item>
+    </integer-array>
+    <string-array name="config_autoTimeSourcesPriority">
+        <item>network</item>
+        <item>telephony</item>
+    </string-array>
+    <integer-array name="config_availableColorModes">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>256</item>
+        <item>257</item>
+        <item>258</item>
+        <item>259</item>
+        <item>260</item>
+        <item>261</item>
+        <item>262</item>
+        <item>263</item>
+        <item>264</item>
+        <item>265</item>
+    </integer-array>
+    <array name="config_backGestureInsetScales">
+        <item>0.6</item>
+        <item>1.0</item>
+        <item>1.33</item>
+    </array>
+    <array name="config_batteryPackageTypeService" />
+    <string-array name="config_batteryPackageTypeSystem">
+        <item>com.android.providers.calendar</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.systemui</item>
+    </string-array>
+    <array name="config_bg_current_drain_high_threshold_to_bg_restricted">
+        <item>20.0</item>
+        <item>40.0</item>
+    </array>
+    <array name="config_bg_current_drain_high_threshold_to_restricted_bucket">
+        <item>30.0</item>
+        <item>60.0</item>
+    </array>
+    <array name="config_bg_current_drain_threshold_to_bg_restricted">
+        <item>4.0</item>
+        <item>8.0</item>
+    </array>
+    <array name="config_bg_current_drain_threshold_to_restricted_bucket">
+        <item>2.0</item>
+        <item>4.0</item>
+    </array>
+    <array name="config_biometric_sensors" />
+    <string-array name="config_blackListWhenPcModeKeepAppAlive">
+        <item>com.android.settings</item>
+        <item>com.lenovo.screensplit</item>
+        <item>com.happyelements.AndroidAnimal</item>
+        <item>com.zui.wallpapersetting</item>
+        <item>com.block.puzzle.game.hippo.uc</item>
+        <item>beatmaker.edm.musicgames.PianoGames</item>
+        <item>com.fugo.wow</item>
+        <item>com.candyroom.clubcraft</item>
+        <item>com.ihuman.pinyin</item>
+        <item>com.gankao.gkwxhd</item>
+        <item>com.roblox.client</item>
+        <item>com.gankaowangxiao.gkwx</item>
+        <item>com.JindoBlu.Antistress</item>
+        <item>com.instagram.android</item>
+        <item>com.kwai.m2u</item>
+        <item>com.easygames.race</item>
+        <item>com.xiaobanlong.main</item>
+        <item>com.piano.tiles.music.game.circles.dancing.beat.magictiles</item>
+        <item>com.youmusic.magictiles</item>
+        <item>com.pronetis.ironball2</item>
+        <item>ru.yandex.yandexmaps</item>
+        <item>com.google.android.apps.tachyon</item>
+        <item>com.JindoBlu.TwoPlayerGamesChallenge</item>
+        <item>com.playstrom.dop2</item>
+        <item>com.Neurononfire.SupremeDuelist</item>
+        <item>com.kiloo.subwaysurf</item>
+        <item>com.lenovo.ota</item>
+    </string-array>
+    <array name="config_brightnessThresholdsOfPeakRefreshRate" />
+    <array name="config_builtInDisplayIsRoundArray">
+        <item>@bool/config_mainBuiltInDisplayIsRound</item>
+        <item>@bool/config_secondaryBuiltInDisplayIsRound</item>
+    </array>
+    <string-array name="config_callBarringMMI">
+        <item>33</item>
+        <item>331</item>
+        <item>332</item>
+        <item>35</item>
+        <item>351</item>
+        <item>330</item>
+        <item>333</item>
+        <item>353</item>
+    </string-array>
+    <string-array name="config_callBarringMMI_for_ims">
+        <item>33</item>
+        <item>331</item>
+        <item>332</item>
+        <item>35</item>
+        <item>351</item>
+        <item>330</item>
+        <item>333</item>
+        <item>353</item>
+    </string-array>
+    <string-array name="config_camera_refresh_list">
+        <item>com.tencent.mm</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.hexin.plat.android</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.benqu.wuta</item>
+        <item>com.youku.phone</item>
+        <item>com.zui.filemanager</item>
+        <item>com.zzkko</item>
+        <item>com.snapchat.android</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.lemon.lvoverseas</item>
+        <item>com.facebook.orca</item>
+    </string-array>
+    <array name="config_cdma_dun_supported_types" />
+    <array name="config_cdma_international_roaming_indicators" />
+    <array name="config_cell_retries_per_error_code" />
+    <integer-array name="config_clockTickVibePattern">
+        <item>0</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="config_commonIconThemeList">
+        <item>lime</item>
+        <item>golden</item>
+        <item>blue</item>
+        <item>pink</item>
+    </string-array>
+    <array name="config_companionDeviceCerts" />
+    <array name="config_companionDevicePackages" />
+    <array name="config_convert_to_emergency_number_map" />
+    <array name="config_defaultCloudSearchServices" />
+    <array name="config_defaultFirstUserRestrictions" />
+    <array name="config_defaultImperceptibleKillingExemptionPkgs" />
+    <integer-array name="config_defaultImperceptibleKillingExemptionProcStates">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>12</item>
+    </integer-array>
+    <integer-array name="config_defaultNotificationVibePattern">
+        <item>0</item>
+        <item>350</item>
+        <item>250</item>
+        <item>350</item>
+    </integer-array>
+    <array name="config_defaultNotificationVibeWaveform" />
+    <array name="config_defaultPinnerServiceFiles" />
+    <array name="config_default_vm_number" />
+    <array name="config_deviceSpecificSystemServices" />
+    <array name="config_deviceStatesAvailableForAppRequests" />
+    <array name="config_deviceStatesOnWhichToSleep" />
+    <array name="config_deviceStatesOnWhichToWakeUp" />
+    <array name="config_device_state_postures" />
+    <array name="config_disableApkUnlessMatchedSku_skus_list" />
+    <array name="config_disableApksUnlessMatchedSku_apk_list" />
+    <array name="config_disabledDreamComponents" />
+    <string-array name="config_disabledUntilUsedPreinstalledImes">
+        <item>com.android.inputmethod.latin</item>
+    </string-array>
+    <array name="config_displayCompositionColorModes" />
+    <array name="config_displayCompositionColorSpaces" />
+    <string-array name="config_displayCutoutApproximationRectArray">
+        <item>@string/config_mainBuiltInDisplayCutoutRectApproximation</item>
+        <item>@string/config_secondaryBuiltInDisplayCutoutRectApproximation</item>
+    </string-array>
+    <string-array name="config_displayCutoutPathArray">
+        <item>@string/config_mainBuiltInDisplayCutout</item>
+        <item>@string/config_secondaryBuiltInDisplayCutout</item>
+    </string-array>
+    <array name="config_displayUniqueIdArray" />
+    <array name="config_displayWhiteBalanceAmbientColorTemperatures" />
+    <array name="config_displayWhiteBalanceBaseThresholds">
+        <item>0.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceDecreaseThresholds">
+        <item>0.1</item>
+    </array>
+    <array name="config_displayWhiteBalanceDisplayColorTemperatures" />
+    <string-array name="config_displayWhiteBalanceDisplayNominalWhite">
+        <item>0.950456</item>
+        <item>1.000000</item>
+        <item>1.089058</item>
+    </string-array>
+    <string-array name="config_displayWhiteBalanceDisplayPrimaries">
+        <item>0.412315</item>
+        <item>0.212600</item>
+        <item>0.019327</item>
+        <item>0.357600</item>
+        <item>0.715200</item>
+        <item>0.119200</item>
+        <item>0.180500</item>
+        <item>0.072200</item>
+        <item>0.950633</item>
+        <item>0.950456</item>
+        <item>1.000000</item>
+        <item>1.089058</item>
+    </string-array>
+    <array name="config_displayWhiteBalanceHighLightAmbientBiases" />
+    <array name="config_displayWhiteBalanceHighLightAmbientBrightnesses" />
+    <array name="config_displayWhiteBalanceIncreaseThresholds">
+        <item>0.1</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBiases">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceLowLightAmbientBrightnesses">
+        <item>10.0</item>
+        <item>10.0</item>
+    </array>
+    <array name="config_displayWhiteBalanceStrongAmbientColorTemperatures" />
+    <array name="config_displayWhiteBalanceStrongDisplayColorTemperatures" />
+    <string-array name="config_display_no_service_when_sim_unready">
+        <item>DE</item>
+        <item>GB</item>
+        <item>JP</item>
+    </string-array>
+    <array name="config_dockExtconStateMapping" />
+    <integer-array name="config_doubleClickVibePattern">
+        <item>0</item>
+        <item>30</item>
+        <item>100</item>
+        <item>30</item>
+    </integer-array>
+    <array name="config_dozeTapSensorPostureMapping" />
+    <array name="config_dreamComplicationsEnabledByDefault" />
+    <string-array name="config_dropboxLowPriorityTags">
+        <item>data_app_strictmode</item>
+        <item>data_app_wtf</item>
+        <item>keymaster</item>
+        <item>netstats</item>
+        <item>system_app_strictmode</item>
+        <item>system_app_wtf</item>
+        <item>system_server_strictmode</item>
+        <item>system_server_wtf</item>
+    </string-array>
+    <string-array name="config_emergency_iso_country_codes">
+        <item>in</item>
+    </string-array>
+    <array name="config_ephemeralResolverPackage" />
+    <array name="config_ethernet_interfaces" />
+    <string-array name="config_external_services_list">
+        <item>com.zui.server.input.ZuiInputManagerService</item>
+        <item>com.lgsi.server.permission.LgsiPermissionService</item>
+        <item>com.android.server.wm.OneModeService</item>
+        <item>com.android.server.wm.OVFreeformService</item>
+        <item>com.android.server.wm.OVDesktopManagerService</item>
+        <item>com.zui.server.ThemeService</item>
+        <item>com.zui.server.icon.AppIconThemeServices</item>
+        <item>com.android.server.ZuiReadingModeService</item>
+        <item>com.lenovo.lgsi.server.power.LgsiPowerService</item>
+        <item>com.android.server.ZuiModeManagerService</item>
+        <item>com.zui.server.notification.NotificationManagerService</item>
+        <item>com.zui.server.ZuiAplogControlService</item>
+        <item>com.zui.server.performance.ZuiPerformanceService</item>
+        <item>com.zui.server.CameraSensorClientService</item>
+    </string-array>
+    <array name="config_face_acquire_biometricprompt_ignorelist" />
+    <array name="config_face_acquire_enroll_ignorelist" />
+    <array name="config_face_acquire_keyguard_ignorelist" />
+    <array name="config_face_acquire_vendor_biometricprompt_ignorelist" />
+    <array name="config_face_acquire_vendor_enroll_ignorelist" />
+    <array name="config_face_acquire_vendor_keyguard_ignorelist" />
+    <array name="config_fillBuiltInDisplayCutoutArray">
+        <item>@bool/config_fillMainBuiltInDisplayCutout</item>
+        <item>@bool/config_fillSecondaryBuiltInDisplayCutout</item>
+    </array>
+    <array name="config_foldedDeviceStates" />
+    <string-array name="config_forceExitOvFreeformSet">
+        <item>cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity2</item>
+        <item>com.zui.deskclock/.alarms.AlarmAlertDialogScreen</item>
+        <item>com.zui.deskclock/.timer.NotificationDialog</item>
+    </string-array>
+    <string-array name="config_forceQueryablePackages">
+        <item>com.android.settings</item>
+        <item>com.android.providers.settings</item>
+    </string-array>
+    <string-array name="config_forceRotateSeamlesslyPackages">
+        <item>com.zui.camera</item>
+    </string-array>
+    <string-array name="config_fullscreenComponentSetToHideFreeform">
+        <item>com.zui.deskclock/.alarms.AlarmAlertDialogScreen</item>
+        <item>com.zui.deskclock/.timer.NotificationDialog</item>
+    </string-array>
+    <string-array name="config_game_mode_swipe_region_enabled">
+        <item>2:850:1700</item>
+        <item>3:0:800</item>
+        <item>4:0:800</item>
+    </string-array>
+    <string-array name="config_globalActionsList">
+        <item>emergency</item>
+        <item>lockdown</item>
+        <item>power</item>
+        <item>restart</item>
+        <item>logout</item>
+        <item>screenshot</item>
+        <item>bugreport</item>
+    </string-array>
+    <array name="config_gnssParameters" />
+    <array name="config_hideWhenDisabled_packageNames" />
+    <array name="config_highAmbientBrightnessThresholdsOfFixedRefreshRate" />
+    <array name="config_highDisplayBrightnessThresholdsOfFixedRefreshRate" />
+    <array name="config_highRefreshRateBlacklist" />
+    <array name="config_integrityRuleProviderPackages" />
+    <array name="config_keep_warming_services" />
+    <array name="config_localPrivateDisplayPorts" />
+    <array name="config_locationDriverAssistancePackageNames" />
+    <array name="config_locationExtraPackageNames" />
+    <string-array name="config_locationProviderPackageNames">
+        <item>com.android.location.fused</item>
+    </string-array>
+    <integer-array name="config_longPressOnPowerDurationSettings">
+        <item>250</item>
+        <item>350</item>
+        <item>500</item>
+        <item>650</item>
+        <item>750</item>
+    </integer-array>
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_lteDbmThresholds">
+        <item>-140</item>
+        <item>-128</item>
+        <item>-118</item>
+        <item>-108</item>
+        <item>-98</item>
+        <item>-44</item>
+    </integer-array>
+    <string-array name="config_magic_window_camera_rotation_blacklist">
+        <item>com.zui.camera</item>
+        <item>com.xunmeng.pinduoduo</item>
+        <item>com.iflytek.inputmethod</item>
+    </string-array>
+    <string-array name="config_magic_window_refresh_activity_list">
+        <item>com.taobao.idlefish/com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity</item>
+    </string-array>
+    <string-array name="config_magic_window_refresh_package_list">
+        <item>com.fenbi.android.zenglish</item>
+        <item>com.kwai.videoeditor</item>
+        <item>com.netease.cloudmusic</item>
+    </string-array>
+    <array name="config_mainBuiltInDisplayWaterfallCutout">
+        <item>@dimen/waterfall_display_left_edge_size</item>
+        <item>@dimen/waterfall_display_top_edge_size</item>
+        <item>@dimen/waterfall_display_right_edge_size</item>
+        <item>@dimen/waterfall_display_bottom_edge_size</item>
+    </array>
+    <integer-array name="config_mappedColorModes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <array name="config_maskBuiltInDisplayCutoutArray">
+        <item>@bool/config_maskMainBuiltInDisplayCutout</item>
+        <item>@bool/config_maskSecondaryBuiltInDisplayCutout</item>
+    </array>
+    <array name="config_minimumBrightnessCurveLux">
+        <item>0.0</item>
+        <item>2000.0</item>
+        <item>4000.0</item>
+    </array>
+    <array name="config_minimumBrightnessCurveNits">
+        <item>0.0</item>
+        <item>50.0</item>
+        <item>90.0</item>
+    </array>
+    <array name="config_mobile_hotspot_provision_app" />
+    <array name="config_mobile_tcp_buffers" />
+    <string-array name="config_need_android_resolver_packages">
+        <item>android.dynamicmime.preferred</item>
+        <item>android.sharesheet.cts</item>
+        <item>com.android.cts.sharingapps</item>
+        <item>com.android.cts.managedprofile</item>
+    </string-array>
+    <array name="config_networkNotifySwitches" />
+    <string-array name="config_networkSupportedKeepaliveCount">
+        <item>0,1</item>
+        <item>1,3</item>
+    </string-array>
+    <array name="config_network_type_tcp_buffers" />
+    <string-array name="config_nightDisplayColorTemperatureCoefficients">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.00000000962353339</item>
+        <item>0.000153045476</item>
+        <item>0.390782778</item>
+        <item>-0.0000000189359041</item>
+        <item>0.000302412211</item>
+        <item>-0.338650895</item>
+    </string-array>
+    <string-array name="config_nightDisplayColorTemperatureCoefficientsNative">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.00000000962353339</item>
+        <item>0.000153045476</item>
+        <item>0.390782778</item>
+        <item>-0.0000000189359041</item>
+        <item>0.000302412211</item>
+        <item>-0.338650895</item>
+    </string-array>
+    <string-array name="config_no_configuration_change_movetoback">
+        <item>com.zui.filemanager</item>
+    </string-array>
+    <string-array name="config_nonBlockableNotificationPackages">
+        <item>com.android.dialer</item>
+        <item>com.android.messaging</item>
+        <item>com.android.cellbroadcastreceiver.module</item>
+    </string-array>
+    <array name="config_nonPreemptibleInputMethods" />
+    <integer-array name="config_notificationFallbackVibePattern">
+        <item>0</item>
+        <item>100</item>
+        <item>150</item>
+        <item>100</item>
+    </integer-array>
+    <array name="config_notificationFallbackVibeWaveform" />
+    <array name="config_notificationMsgPkgsAllowedAsConvos" />
+    <string-array name="config_notificationSignalExtractors">
+        <item>com.android.server.notification.NotificationChannelExtractor</item>
+        <item>com.android.server.notification.NotificationAdjustmentExtractor</item>
+        <item>com.android.server.notification.BubbleExtractor</item>
+        <item>com.android.server.notification.ValidateNotificationPeople</item>
+        <item>com.android.server.notification.PriorityExtractor</item>
+        <item>com.android.server.notification.ZenModeExtractor</item>
+        <item>com.android.server.notification.ImportanceExtractor</item>
+        <item>com.android.server.notification.NotificationIntrusivenessExtractor</item>
+        <item>com.android.server.notification.VisibilityExtractor</item>
+        <item>com.android.server.notification.BadgeExtractor</item>
+        <item>com.android.server.notification.CriticalNotificationExtractor</item>
+    </string-array>
+    <array name="config_oemUsbModeOverride" />
+    <string-array name="config_ovForceRelaunchArCnSet">
+        <item>us.zoom.videomeetings/com.zipow.videobox.conference.ui.ZmFoldableConfActivity</item>
+        <item>cn.xuexi.android/com.alibaba.android.uc.base.navi.window2.Window2Activity</item>
+        <item>com.tencent.qqmusic/.business.playernew.view.PadNewPlayerActivity</item>
+        <item>com.qiyi.video/org.qiyi.pluginlibrary.component.InstrActivityProxy1</item>
+    </string-array>
+    <string-array name="config_ovForceRelaunchPkgNameSet">
+        <item>com.tmall.wireless</item>
+        <item>com.qq.reader</item>
+        <item>com.sina.weibo</item>
+        <item>com.taptap</item>
+    </string-array>
+    <array name="config_ovFreeform_ForceFixedScaleResizeSet" />
+    <string-array name="config_ovFreeform_ForceFullscreenArSet">
+        <item>com.zui.camera/.SecureCameraActivity</item>
+        <item>com.zui.camera/.SmartScannerActivity</item>
+        <item>com.zui.camera/.WidgetActivity</item>
+        <item>com.zui.notes/.main.edit.EditActivity</item>
+        <item>com.google.android.apps.photos/.setwallpaper.SetWallpaperActivity</item>
+        <item>com.android.wallpaperpicker/.WallpaperCropActivity</item>
+    </string-array>
+    <string-array name="config_ovFreeform_FreeDragResizeSet_Prc">
+        <item>com.zui.notes</item>
+        <item>com.lenovo.levoice_notes</item>
+        <item>com.lenovo.browser.hd</item>
+        <item>com.zui.gallery</item>
+        <item>com.zui.filemanager</item>
+        <item>com.zui.calendar</item>
+        <item>com.lenovo.leos.appstore</item>
+        <item>com.zui.weather</item>
+        <item>com.zui.camera</item>
+        <item>com.microsoft.office.word</item>
+        <item>com.microsoft.office.excel</item>
+        <item>com.microsoft.office.powerpoint</item>
+        <item>com.microsoft.office.officehub</item>
+        <item>com.microsoft.office.onenote</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.tencent.mtt</item>
+        <item>com.android.chrome</item>
+        <item>com.UCMobile</item>
+        <item>com.microsoft.emmx</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.ss.android.ugc.aweme.lite</item>
+        <item>com.tencent.mm</item>
+        <item>com.youku.phone</item>
+        <item>tv.danmaku.bilibilihd</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.ss.android.article.video</item>
+        <item>com.quark.browser</item>
+        <item>com.microsoft.teams</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>com.microsoft.office.onenote</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.cmcc.cmvideo</item>
+        <item>com.baidu.homework</item>
+        <item>com.nineton.shouzhang</item>
+    </string-array>
+    <string-array name="config_ovFreeform_FreeDragResizeSet_Row">
+        <item>com.zui.notes</item>
+        <item>com.lenovo.levoice_notes</item>
+        <item>com.zui.camera</item>
+        <item>com.zui.weather</item>
+        <item>com.android.chrome</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.gm</item>
+        <item>com.google.android.calendar</item>
+        <item>com.google.android.apps.walletnfcrel</item>
+        <item>com.google.android.apps.photos</item>
+        <item>com.android.vending</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.magazines</item>
+        <item>com.google.android.apps.podcasts</item>
+        <item>com.android.contacts</item>
+        <item>com.google.android.apps.docs.editors.docs</item>
+        <item>com.google.android.apps.docs.editors.sheets</item>
+        <item>com.google.android.apps.docs.editors.slides</item>
+        <item>com.google.android.calculator</item>
+        <item>com.google.android.apps.chromecast.app</item>
+        <item>com.google.android.apps.subscriptions.red</item>
+        <item>com.microsoft.office.word</item>
+        <item>com.microsoft.office.excel</item>
+        <item>com.microsoft.office.powerpoint</item>
+        <item>com.microsoft.office.officehub</item>
+        <item>com.microsoft.office.onenote</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>com.microsoft.teams</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.microsoft.emmx</item>
+        <item>com.zhiliaoapp.musically</item>
+    </string-array>
+    <string-array name="config_ovFreeform_StaticAllowSet_Prc3rd">
+        <item>com.lenovo.leos.appstore.pad</item>
+        <item>com.lenovo.browser.hd</item>
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.tencent.qqlive</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.qiyi.video</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.smile.gifmaker</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.xunmeng.pinduoduo</item>
+        <item>com.kuaishou.nebula</item>
+        <item>com.baidu.netdisk</item>
+        <item>com.xingin.xhs</item>
+        <item>com.alibaba.android.rimet</item>
+        <item>com.tencent.mtt</item>
+        <item>com.hunantv.imgo.activity</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.baidu.input</item>
+        <item>com.tencent.qqmusic</item>
+        <item>com.taobao.taobao</item>
+        <item>com.kugou.android</item>
+        <item>com.qiyi.video.pad</item>
+        <item>com.android.documentsui</item>
+        <item>com.lenovo.leos.appstore</item>
+        <item>com.ss.android.ugc.aweme.lite</item>
+        <item>org.codeaurora.gallery</item>
+        <item>com.tencent.wemeet.app</item>
+        <item>com.mediatek.camera</item>
+        <item>com.sina.weibo</item>
+        <item>com.lenovo.browser</item>
+        <item>com.cnlaunch.x431.pro3S</item>
+        <item>com.le123.ysdq</item>
+        <item>com.dragon.read</item>
+        <item>com.microsoft.office.officehub</item>
+        <item>com.UCMobile</item>
+        <item>cn.kuwo.player</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.duowan.kiwi</item>
+        <item>com.eduyun.app.factory.ykt</item>
+        <item>com.adsk.sketchbook</item>
+        <item>com.snda.wifilocating</item>
+        <item>com.microsoft.office.onenote</item>
+        <item>com.lmsa.app.lmsapad</item>
+        <item>com.hongen.app.word</item>
+        <item>cn.kuwo.kwmusichd</item>
+        <item>com.sohu.inputmethod.sogou</item>
+        <item>com.android.chrome</item>
+        <item>com.lemon.lv</item>
+        <item>com.sohu.inputmethod.sogou.oem</item>
+        <item>com.wepie.snakegame.lenovo</item>
+        <item>com.baidu.searchbox.lite</item>
+        <item>com.moji.pad</item>
+        <item>com.moji.mjweather</item>
+        <item>com.sofunny.Sausage</item>
+        <item>com.ximalayaos.pad.tingkid</item>
+        <item>com.zhihu.android</item>
+        <item>com.jideos.jnotes</item>
+        <item>com.outfit7.talkingtomgoldrun.lenovo</item>
+        <item>air.tv.douyu.android</item>
+        <item>com.wacom.bamboopapertab</item>
+        <item>com.tencent.karaoke</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.iflytek.inputmethod</item>
+        <item>com.m4399.gamecenter</item>
+        <item>com.kuaikan.comic</item>
+        <item>com.ss.android.article.lite</item>
+        <item>com.fenbi.android.zenglish</item>
+        <item>com.shusheng.JoJoRead</item>
+        <item>com.xunlei.downloadprovider</item>
+        <item>com.gotokeep.keep</item>
+        <item>com.kmxs.reader</item>
+        <item>com.kwai.videoeditor</item>
+        <item>com.google.android.inputmethod.pinyin</item>
+        <item>com.android.vending</item>
+        <item>com.youdao.dict</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.chaoxing.mobile</item>
+        <item>com.cctv.yangshipin.app.androidp</item>
+        <item>com.sankuai.meituan</item>
+        <item>com.fenbi.android.solar</item>
+        <item>com.cnlaunch.x431pro.scanner</item>
+        <item>com.tencent.mf.uam</item>
+        <item>com.newskyer.draw</item>
+        <item>com.sakura.show</item>
+        <item>com.estrongs.android.pop</item>
+        <item>com.qihoo.appstore</item>
+        <item>com.gkid.crazyrope</item>
+        <item>cn.xuexi.android</item>
+        <item>com.tencent.weread</item>
+        <item>com.kwai.m2u</item>
+        <item>com.xt.retouch</item>
+        <item>com.gankao.gkwxhd</item>
+        <item>com.jiongji.andriod.card</item>
+        <item>com.fenbi.android.servant</item>
+        <item>com.zui.ugame</item>
+        <item>com.zmlearn.course.am</item>
+        <item>com.tencent.gamehelper.pg</item>
+        <item>com.playgame.havefun</item>
+        <item>com.mt.mtxx.mtxx</item>
+        <item>com.fenbi.android.leo</item>
+        <item>com.lofter.android</item>
+        <item>com.zhongduomei.rrmj.society</item>
+        <item>com.ximalaya.ting.kid</item>
+        <item>com.tal.tiku</item>
+        <item>com.njh.biubiu</item>
+        <item>com.market2345</item>
+        <item>cn.com.langeasy.LangEasyLexis</item>
+        <item>com.gh.gamecenter</item>
+        <item>com.topstack.kilonotes.pad</item>
+        <item>com.sinyee.babybus.world</item>
+        <item>FM Radio</item>
+        <item>com.zui.fmplayer</item>
+        <item>com.xmcy.hykb</item>
+        <item>com.duoduo.child.story</item>
+        <item>com.amap.android.location</item>
+        <item>com.qqgame.hlddz</item>
+        <item>com.PigeonGames.Phigros</item>
+        <item>com.mihoyo.hyperion</item>
+        <item>com.lion.market</item>
+        <item>com.baidu.appsearch</item>
+        <item>com.chinamworld.bocmbci</item>
+        <item>com.icbc</item>
+        <item>com.cmbchina.ccd.pluto.cmbActivity</item>
+        <item>com.yitong.mbank.psbc</item>
+        <item>com.jd.jrapp</item>
+        <item>com.icbc.im</item>
+        <item>com.android.dazhihui</item>
+        <item>com.ct.client</item>
+        <item>com.tencent.androidqqmail</item>
+        <item>com.microsoft.office.officehubrow</item>
+        <item>com.tencent.wemeet.app</item>
+        <item>com.sohu.inputmethod.sogou.oem</item>
+    </string-array>
+    <string-array name="config_ovFreeform_StaticAllowSet_PrcPreload">
+        <item>com.zui.camera</item>
+        <item>com.zui.gallery</item>
+        <item>com.android.dialer</item>
+        <item>com.zui.mms</item>
+        <item>com.android.dialer</item>
+        <item>com.zui.contacts</item>
+        <item>com.zui.filemanager</item>
+        <item>com.zui.notes</item>
+        <item>com.lenovo.levoice_notes</item>
+        <item>com.zui.deskclock</item>
+        <item>com.zui.calendar</item>
+        <item>com.zui.calculator</item>
+        <item>com.zui.recorder</item>
+        <item>com.zui.zroaming</item>
+        <item>com.lenovo.menu_assistant</item>
+        <item>com.lenovo.leos.cloud.sync</item>
+        <item>com.zui.weather</item>
+        <item>com.android.inputmethod.latin</item>
+        <item>com.sohu.inputmethod.sogou.oem</item>
+        <item>com.lenovo.leos.appstore</item>
+        <item>com.lenovo.leos.appstore.pad</item>
+        <item>com.lenovo.browser.hd</item>
+        <item>Legion Zone</item>
+        <item>com.lenovo.lsf.device</item>
+        <item>com.tblenovo.tabpushout</item>
+        <item>com.lenovo.lsf</item>
+        <item>com.lmsa.app.lmsapad</item>
+        <item>com.lenovo.ue.device</item>
+        <item>com.lenovo.ocpl</item>
+        <item>com.lenovo.hec.lenovoextend</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.newskyer.draw</item>
+        <item>com.lenovo.club.app</item>
+        <item>com.youku.phone</item>
+        <item>com.smile.gifmaker</item>
+        <item>com.sina.weibo</item>
+        <item>com.xingin.xhs</item>
+        <item>cn.kuwo.player</item>
+    </string-array>
+    <string-array name="config_ovFreeform_StaticAllowSet_Row3rd">
+        <item>com.android.chrome</item>
+        <item>com.android.vending</item>
+        <item>com.whatsapp</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.facebook.katana</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.google.android.deskclock</item>
+        <item>com.netflix.mediaclient</item>
+        <item>com.android.deskclock</item>
+        <item>com.roblox.client</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.android.contacts</item>
+        <item>com.android.settings.intelligence</item>
+        <item>com.instagram.android</item>
+        <item>com.facebook.orca</item>
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.calculator</item>
+        <item>com.android.documentsui</item>
+        <item>com.dolby.daxappui</item>
+        <item>com.tocaboca.tocalifeworld</item>
+        <item>com.android.phone</item>
+        <item>com.android.calculator2</item>
+        <item>com.snapchat.android</item>
+        <item>com.kitkagames.fallbuddies</item>
+        <item>com.android.wantjoin.settings</item>
+        <item>com.spotify.music</item>
+        <item>org.telegram.messenger</item>
+        <item>com.google.android.apps.kids.home</item>
+        <item>com.google.android.videos</item>
+        <item>com.google.android.contacts</item>
+        <item>com.supercell.brawlstars</item>
+        <item>com.pinterest</item>
+        <item>com.google.android.apps.wellbeing</item>
+        <item>com.disney.disneyplus</item>
+        <item>com.amazon.avod.thirdpartyclient</item>
+        <item>com.oupeng.master</item>
+        <item>us.zoom.videomeetings</item>
+        <item>com.outfit7.mytalkingtomfriends</item>
+        <item>com.innersloth.spacemafia</item>
+        <item>com.android.bluetooth</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>com.outfit7.mytalkingtom2</item>
+        <item>com.lenovo.anyshare.gps</item>
+        <item>com.facebook.lite</item>
+        <item>com.zimi.weather</item>
+        <item>com.tblenovo.soundrecorder</item>
+        <item>com.viber.voip</item>
+        <item>com.android.fmradio</item>
+        <item>com.google.android.apps.youtube.mango</item>
+        <item>ru.yandex.searchplugin</item>
+        <item>com.king.candycrushsaga</item>
+        <item>com.outfit7.mytalkingangela2</item>
+        <item>jp.ne.ibis.ibispaintx.app</item>
+        <item>com.android.dialer</item>
+        <item>com.microsoft.bing.wallpapers</item>
+        <item>com.lemon.lvoverseas</item>
+        <item>com.google.android.apps.restore</item>
+        <item>com.google.android.apps.magazines</item>
+        <item>com.outfit7.talkingtomgoldrun</item>
+        <item>com.yandex.browser</item>
+        <item>com.android.stk</item>
+        <item>com.adobe.reader</item>
+        <item>com.android.wallpaper.livepicker</item>
+        <item>com.youmusic.magictiles</item>
+        <item>com.microsoft.office.officehubrow</item>
+        <item>com.tblenovo.kidslauncher</item>
+        <item>com.android.camera3</item>
+        <item>com.microsoft.office.word</item>
+        <item>com.amelosinteractive.snake</item>
+        <item>com.ss.android.ugc.trill</item>
+        <item>com.amanotes.beathopper</item>
+        <item>com.happymod.apk</item>
+        <item>com.android.storagemanager</item>
+        <item>com.discord</item>
+        <item>com.easygames.race</item>
+        <item>com.amazon.mShop.android.shopping</item>
+        <item>com.PlayMax.playergames</item>
+        <item>com.android.mms</item>
+        <item>com.byjus.thelearningapppro</item>
+        <item>com.newnormalgames.phonecasediy</item>
+        <item>com.google.android.apps.books</item>
+        <item>com.google.android.apps.docs.editors.sheets</item>
+        <item>com.google.android.gm.lite</item>
+        <item>com.outfit7.herodash</item>
+        <item>com.twitter.android</item>
+        <item>in.startv.hotstar</item>
+        <item>com.microsoft.teams</item>
+        <item>com.zhiliaoapp.musically.go</item>
+        <item>com.mxtech.videoplayer.ad</item>
+        <item>com.outfit7.mytalkingangelafree</item>
+        <item>com.google.android.apps.meetings</item>
+        <item>com.JindoBlu.Antistress</item>
+        <item>jp.co.yahoo.android.yjtop</item>
+        <item>com.duolingo</item>
+        <item>org.videolan.vlc</item>
+        <item>com.Neurononfire.SupremeDuelist</item>
+        <item>com.supercell.clashroyale</item>
+        <item>com.skype.raider</item>
+        <item>com.outfit7.mytalkingtomfree</item>
+        <item>air.com.lunime.gachaclub</item>
+        <item>com.JindoBlu.TwoPlayerGamesChallenge</item>
+        <item>com.Garawell.BridgeRace</item>
+        <item>com.pronetis.ironball2</item>
+        <item>com.hbo.hbonow</item>
+        <item>com.google.android.apps.translate</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.chaozhuo.filemanager</item>
+        <item>com.vkontakte.android</item>
+        <item>com.orange.kidspiano.music.songs</item>
+        <item>tv.twitch.android.app</item>
+        <item>com.tocaboca.tocakitchen2</item>
+        <item>com.snake.io.slither.worms</item>
+        <item>com.paradyme.solarsmash</item>
+        <item>com.zzkko</item>
+        <item>com.block.puzzle.game.hippo.uc</item>
+        <item>com.lenovo.tab_m10_hd</item>
+        <item>org.mozilla.firefox</item>
+        <item>com.truecaller</item>
+        <item>com.mobileiron.anyware.android</item>
+        <item>com.ea.gp.fifamobile</item>
+        <item>com.playgendary.tom</item>
+        <item>jp.naver.line.android</item>
+        <item>com.amazon.mp3</item>
+        <item>com.sega.sonicdash</item>
+        <item>com.google.android.music</item>
+        <item>com.supercell.clashofclans</item>
+        <item>com.whatsapp.w4b</item>
+        <item>com.seenax.HideAndSeek</item>
+        <item>com.playgendary.kickthebuddy</item>
+        <item>com.fungames.blockcraft</item>
+        <item>com.olzhas.carparking.multyplayer</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.playstrom.dop2</item>
+        <item>com.picsart.studio</item>
+        <item>com.weegoon.thiefpuzzle</item>
+        <item>com.games.bottle</item>
+        <item>com.tutotoons.app.fluvsies.free</item>
+        <item>com.soccer.score.star</item>
+        <item>com.europosit.pixelcoloring</item>
+        <item>com.ludo.king</item>
+        <item>com.king.candycrushsodasaga</item>
+        <item>com.byjus.thelearningapp.premium</item>
+        <item>com.camerasideas.instashot</item>
+        <item>com.kwai.video</item>
+        <item>com.pixel.art.coloring.color.number</item>
+        <item>com.adsk.sketchbook</item>
+        <item>com.orange.coloring.learn.kids</item>
+        <item>com.microsoft.office.excel</item>
+        <item>com.zakg.scaryteacher.hellgame</item>
+        <item>com.mmircil.cnb2</item>
+        <item>com.amazon.kindle</item>
+        <item>com.amanotes.pamadancingroad</item>
+        <item>com.ea.game.pvzfree_row</item>
+        <item>com.Upperpik.HairChallenge</item>
+        <item>com.racing.hillclimb.car</item>
+        <item>com.miga.world</item>
+        <item>com.ea.game.pvz2_row</item>
+        <item>com.supercell.hayday</item>
+        <item>com.PoxelStudios.DudeTheftAuto</item>
+        <item>com.grubhub.android.orderhub</item>
+        <item>com.fugo.wow</item>
+        <item>com.aim.racing</item>
+        <item>com.snaptube.premium</item>
+        <item>com.digidust.elokence.akinator.freemium</item>
+        <item>com.maxgames.stickwarlegacy</item>
+        <item>com.playrix.homescapes</item>
+        <item>com.gears42.surelock</item>
+        <item>org.jw.jwlibrary.mobile</item>
+        <item>com.alphainventor.filemanager</item>
+        <item>com.cassette.aquapark</item>
+        <item>com.freeplay.twerk</item>
+        <item>amazon.speech.sim</item>
+        <item>com.kayac.ball_run</item>
+        <item>com.playgendary.ktbremaster</item>
+        <item>com.budgestudios.googleplay.BarbieDreamhouse</item>
+        <item>net.mobigame.zombietsunami</item>
+        <item>com.masomo.headball2</item>
+        <item>com.google.android.apps.subscriptions.red</item>
+        <item>com.firsttouchgames.dls7</item>
+        <item>com.skgames.trafficrider</item>
+        <item>com.TwentySeven.MelonPlayground</item>
+        <item>com.sdpgames.sculptpeople</item>
+        <item>freeplay.crowdrun.com</item>
+        <item>com.flipkart.android</item>
+        <item>com.outfit7.talkingben</item>
+        <item>com.nianticlabs.pokemongo</item>
+        <item>com.demin.emojipuzzle</item>
+        <item>com.tapblaze.pizzabusiness</item>
+        <item>com.meesho.supply</item>
+        <item>com.alibaba.aliexpresshd</item>
+        <item>com.microsoft.office.onenote</item>
+        <item>com.playstrom.dop4</item>
+        <item>com.caf.fmradio</item>
+        <item>com.mojang.minecrafttrialpe</item>
+        <item>com.fingersoft.hillclimb</item>
+        <item>com.axlebolt.standoff2</item>
+        <item>com.playgendary.tanks</item>
+        <item>com.lenovo.entertainment</item>
+        <item>com.Slack</item>
+    </string-array>
+    <string-array name="config_ovFreeform_StaticAllowSet_RowPreload">
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.android.chrome</item>
+        <item>com.google.android.gm</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.android.vending</item>
+        <item>com.google.android.apps.docs</item>
+        <item>com.google.android.apps.tachyon</item>
+        <item>com.google.android.apps.photos</item>
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.google.android.contacts</item>
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.calculator</item>
+        <item>com.google.android.calendar</item>
+        <item>com.google.android.deskclock</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.google.android.apps.magazines</item>
+        <item>com.google.android.apps.subscriptions.red</item>
+        <item>com.google.android.apps.podcasts</item>
+        <item>com.google.android.apps.docs.editors.docs</item>
+        <item>com.google.android.apps.docs.editors.sheets</item>
+        <item>com.google.android.apps.docs.editors.slides</item>
+        <item>com.google.android.apps.chromecast.app</item>
+        <item>com.google.android.apps.walletnfcrel</item>
+        <item>com.google.android.videos</item>
+        <item>com.google.android.play.games</item>
+        <item>com.google.android.apps.books</item>
+        <item>com.lenovo.hec.lenovoextend</item>
+        <item>com.zui.recorder</item>
+        <item>com.zui.weather</item>
+        <item>com.lenovo.lsf.device</item>
+        <item>com.tblenovo.tabpushout</item>
+        <item>com.android.fmradio</item>
+        <item>com.microsoft.office.officehubrow</item>
+        <item>com.netflix.mediaclient</item>
+        <item>com.google.android.apps.kids.home</item>
+        <item>com.google.android.apps.mediahome.launcher</item>
+        <item>jp.co.omronsoft.iwnnime.ml_lenovo</item>
+        <item>com.tblenovo.lenovoruapps</item>
+        <item>tw.com.parenting.storytime</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.myscript.nebo.lenovo</item>
+        <item>com.myscript.calculator.lenovo</item>
+        <item>jp.co.celsys.clipstudiopaint.googleplay</item>
+    </string-array>
+    <string-array name="config_ovMaskAnim_Delay_PkgNameAndTime">
+        <item>com.sohu.inputmethod.sogou:1500</item>
+        <item>com.zui.weather:800</item>
+        <item>com.google.android.dialer:600</item>
+        <item>com.google.android.contacts:600</item>
+        <item>com.taobao.taobao:600</item>
+    </string-array>
+    <string-array name="config_ovToggleCrashArCnSet">
+        <item>com.ss.android.ugc.aweme/.detail.ui.DetailActivity</item>
+        <item>com.tencent.tmgp.supercell.clashofclans/com.supercell.titan.tencent.GameAppTencent</item>
+        <item>com.supercell.clashofclans/com.supercell.titan.GameApp</item>
+    </string-array>
+    <string-array name="config_ovToggleCrashPkgSet">
+        <item>com.playrix.homescapes</item>
+    </string-array>
+    <string-array name="config_ovToggleNotStopThenResumeArCnSet">
+        <item>com.qiyi.video.pad/org.iqiyi.video.activity.PlayerActivity</item>
+        <item>me.pou.app/.App</item>
+    </string-array>
+    <array name="config_ovToggleNotStopThenResumePkgSet" />
+    <string-array name="config_ovTopBar_KeyEventBlockSet">
+        <item>com.netease.idv.googleplay</item>
+        <item>com.netease.dwrg.lenovo</item>
+    </string-array>
+    <string-array name="config_ovTopBar_StaticDenyArSet">
+        <item>com.android.dialer/com.android.incallui.InCallActivity</item>
+        <item>com.zui.deskclock/.alarms.AlarmAlertDialogScreen</item>
+        <item>com.zui.deskclock/.timer.NotificationDialog</item>
+        <item>com.android.settings/com.lenovo.settings.system.timing.ShutdownActivity</item>
+        <item>com.zui.freeform.sidebar/.ui.SplitScreenBtnGuideDialogActivity</item>
+        <item>com.zui.freeform.sidebar/.ui.GestureGuideDialogActivity</item>
+        <item>com.zui.freeform.sidebar/.ui.SplitScreenThreeFigsGuideDialogActivity</item>
+        <item>com.zui.freeform.sidebar/.ui.SplitScreenFirstGuideDialogActivity</item>
+        <item>com.android.permissioncontroller/.permission.ui.GrantPermissionsActivity</item>
+        <item>com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity</item>
+        <item>com.lenovo.lfh.tianjiao.tablet/.ui.activity.dialog.PermissionDialogActivity</item>
+        <item>com.lenovo.lfh.tianjiao.tablet/.ui.dialog.PermissionDialogActivity</item>
+    </string-array>
+    <string-array name="config_ovTopBar_StaticDenySet">
+        <item>com.netease.party.lenovo</item>
+        <item>android.systemui.cts</item>
+        <item>com.zui.launchersdk</item>
+    </string-array>
+    <string-array name="config_ov_camera_rotation_blacklist">
+        <item>com.android.settings</item>
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.tencent.wemeet.app</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.google.android.apps.tachyon</item>
+        <item>com.hunantv.imgo.activity</item>
+        <item>com.microsoft.office.officehub</item>
+        <item>com.zui.camera</item>
+        <item>com.tencent.mm</item>
+        <item>com.tencent.news</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.microsoft.office.officehubrow</item>
+        <item>com.lemon.lvoverseas</item>
+        <item>com.google.android.apps.searchlite</item>
+        <item>com.kuaishou.nebula</item>
+        <item>com.zui.camera.assistant</item>
+        <item>com.youku.phone</item>
+        <item>com.smile.gifmaker</item>
+        <item>com.lenovo.browser.hd</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>com.facebook.orca</item>
+        <item>com.lemon.lv</item>
+        <item>com.microsoft.office.word</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.yandex.browser</item>
+        <item>com.facebook.lite</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.google.android.youtube</item>
+        <item>com.whatsapp</item>
+        <item>com.baidu.homework</item>
+        <item>us.zoom.videomeetings</item>
+        <item>com.ss.android.lark</item>
+        <item>com.alibaba.android.rimet</item>
+        <item>com.zui.mms</item>
+        <item>com.sankuai.meituan</item>
+        <item>com.ss.android.ugc.live</item>
+        <item>com.baidu.netdisk</item>
+        <item>com.ximalaya.ting.android</item>
+        <item>com.microsoft.office.onenote</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.sohu.inputmethod.sogou</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.android.chrome</item>
+        <item>com.snapchat.android</item>
+        <item>com.xunmeng.pinduoduo</item>
+        <item>com.xingin.xhs</item>
+        <item>com.cmbchina.ccd.pluto.cmbActivity</item>
+        <item>com.icbc.im</item>
+        <item>com.tencent.qqmusic</item>
+        <item>com.kugou.android</item>
+        <item>com.ss.android.ugc.aweme.lite</item>
+        <item>com.ss.android.article.video</item>
+        <item>com.dragon.read</item>
+        <item>com.UCMobile</item>
+        <item>com.youdao.dict</item>
+        <item>com.tencent.karaoke</item>
+        <item>com.snda.wifilocating</item>
+        <item>com.iflytek.inputmethod</item>
+        <item>com.jideos.jnotes</item>
+        <item>com.kuaiduizuoye.scan</item>
+        <item>com.m4399.gamecenter</item>
+        <item>com.xunlei.downloadprovider</item>
+        <item>com.bb.happykids</item>
+        <item>com.babycloud.hanju</item>
+        <item>com.pinterest</item>
+        <item>com.viber.voip</item>
+        <item>com.eduyun.app.factory.ykt</item>
+        <item>com.achievo.vipshop</item>
+        <item>com.google.android.gm</item>
+        <item>com.zui.camera.qr</item>
+        <item>com.fenbi.android.servant</item>
+        <item>com.gkid.crazyrope</item>
+        <item>com.zui.filemanager</item>
+        <item>com.fenbi.android.leo</item>
+    </string-array>
+    <string-array name="config_ov_cheat_rotation_whitelist">
+        <item>com.sina.weibo</item>
+        <item>com.taptap</item>
+        <item>com.taobao.taobao</item>
+        <item>com.iflytek.inputmethod</item>
+        <item>com.microsoft.teams</item>
+        <item>com.alibaba.android.rimet</item>
+        <item>com.zhihu.android</item>
+        <item>com.qiyi.video</item>
+    </string-array>
+    <string-array name="config_ov_provides_orientation_whitelist">
+        <item>com.android.settings</item>
+        <item>com.zui.safecenter</item>
+    </string-array>
+    <string-array name="config_ovcDcv_StaticDenySet">
+        <item>com.lenovo.screensplit/.MainActivity</item>
+        <item>com.google.android.apps.googleassistant/.AssistantActivity</item>
+        <item>com.google.android.googlequicksearchbox/com.google.android.apps.gsa.deeplink.DeeplinkActivityEntrypoint</item>
+        <item>com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.OpaActivity</item>
+        <item>com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.onboarding.oobe.OobeActivity</item>
+        <item>android.systemui.cts/.LightBarActivity</item>
+        <item>android.server.wm.cts/android.server.wm.WindowInsetsPolicyTest$TestActivity</item>
+        <item>android.server.wm.cts/android.server.wm.WindowInsetsPolicyTest$FullscreenTestActivity</item>
+        <item>android.server.wm.cts/android.server.wm.WindowInsetsPolicyTest$FullscreenWmFlagsTestActivity</item>
+    </string-array>
+    <string-array name="config_ovcDcv_Static_DisableMinimizeButton_Set">
+        <item>com.zui.theme.settings/.ProgressDialogActivity</item>
+    </string-array>
+    <array name="config_packagesExemptFromSuspension" />
+    <string-array name="config_pc_mode_full_screen_list">
+        <item>com.tencent.mtt</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.quark.browser</item>
+        <item>cn.kuwo.kwmusichd</item>
+        <item>com.qiyi.video</item>
+        <item>com.xingin.xhs</item>
+        <item>com.kugou.android</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.tencent.qqlive</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.fenbi.android.solar</item>
+        <item>com.facebook.katana</item>
+        <item>com.sina.weibo</item>
+        <item>com.taobao.idlefish</item>
+        <item>com.alibaba.android.rimet</item>
+        <item>cn.kuwo.player</item>
+    </string-array>
+    <string-array name="config_pc_mode_multi_window_list">
+        <item>com.tencent.mtt</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.quark.browser</item>
+        <item>com.qiyi.video</item>
+        <item>com.xingin.xhs</item>
+        <item>com.kugou.android</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.tencent.qqlive</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.fenbi.android.solar</item>
+        <item>com.facebook.katana</item>
+        <item>com.sina.weibo</item>
+        <item>com.taobao.idlefish</item>
+        <item>com.alibaba.android.rimet</item>
+        <item>cn.kuwo.player</item>
+    </string-array>
+    <string-array name="config_perDeviceStateRotationLockDefaults">
+        <item>0:2</item>
+    </string-array>
+    <string-array name="config_priorityOnlyDndExemptPackages">
+        <item>com.android.dialer</item>
+        <item>com.android.server.telecom</item>
+        <item>com.android.systemui</item>
+        <item>android</item>
+    </string-array>
+    <string-array name="config_priority_process_stylus_pen_event_packages">
+        <item>com.fiistudio.fiinote</item>
+        <item>com.wacom.bamboopapertab</item>
+        <item>com.medibang.android.paint.tablet</item>
+        <item>jp.ne.ibis.ibispaintx.app.hms</item>
+    </string-array>
+    <integer-array name="config_protectedNetworks">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
+    <string-array name="config_reduceBrightColorsCoefficients">
+        <item>-0.000000000000001</item>
+        <item>-0.955555555555554</item>
+        <item>1.000000000000000</item>
+    </string-array>
+    <string-array name="config_reduceBrightColorsCoefficientsNonlinear">
+        <item>-0.4429953456</item>
+        <item>-0.2434077725</item>
+        <item>0.9809063061</item>
+    </string-array>
+    <array name="config_restrictedImagesServices" />
+    <array name="config_ringtoneEffectUris" />
+    <array name="config_roundedCornerBottomRadiusAdjustmentArray">
+        <item>@dimen/rounded_corner_radius_bottom_adjustment</item>
+        <item>@dimen/secondary_rounded_corner_radius_bottom_adjustment</item>
+    </array>
+    <array name="config_roundedCornerBottomRadiusArray">
+        <item>@dimen/rounded_corner_radius_bottom</item>
+        <item>@dimen/secondary_rounded_corner_radius_bottom</item>
+    </array>
+    <array name="config_roundedCornerRadiusAdjustmentArray">
+        <item>@dimen/rounded_corner_radius_adjustment</item>
+        <item>@dimen/secondary_rounded_corner_radius_adjustment</item>
+    </array>
+    <array name="config_roundedCornerRadiusArray">
+        <item>@dimen/rounded_corner_radius</item>
+        <item>@dimen/secondary_rounded_corner_radius</item>
+    </array>
+    <array name="config_roundedCornerTopRadiusAdjustmentArray">
+        <item>@dimen/rounded_corner_radius_top_adjustment</item>
+        <item>@dimen/secondary_rounded_corner_radius_top_adjustment</item>
+    </array>
+    <array name="config_roundedCornerTopRadiusArray">
+        <item>@dimen/rounded_corner_radius_top</item>
+        <item>@dimen/secondary_rounded_corner_radius_top</item>
+    </array>
+    <integer-array name="config_safeModeEnabledVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+        <item>500</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="config_screenBrighteningThresholds">
+        <item>100</item>
+    </integer-array>
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>0</item>
+        <item>20</item>
+        <item>51</item>
+        <item>77</item>
+        <item>153</item>
+        <item>214</item>
+        <item>250</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_screenBrightnessNits">
+        <item>0</item>
+        <item>40</item>
+        <item>100</item>
+        <item>150</item>
+        <item>300</item>
+        <item>420</item>
+        <item>490</item>
+        <item>500</item>
+    </integer-array>
+    <integer-array name="config_screenDarkeningThresholds">
+        <item>200</item>
+    </integer-array>
+    <array name="config_screenThresholdLevels" />
+    <array name="config_secondaryBuiltInDisplayWaterfallCutout">
+        <item>@dimen/secondary_waterfall_display_left_edge_size</item>
+        <item>@dimen/secondary_waterfall_display_top_edge_size</item>
+        <item>@dimen/secondary_waterfall_display_right_edge_size</item>
+        <item>@dimen/secondary_waterfall_display_bottom_edge_size</item>
+    </array>
+    <array name="config_serialPorts" />
+    <string-array name="config_serviceStateLocationAllowedPackages">
+        <item>com.android.phone</item>
+    </string-array>
+    <array name="config_sfps_sensor_props" />
+    <array name="config_sharedLibrariesLoadedAfterApp" />
+    <string-array name="config_shipModeEffectiveActivities">
+        <item>com.zui.setupwizard.DefaultActivity</item>
+        <item>com.google.android.setupwizard.user.WelcomeActivity</item>
+    </string-array>
+    <string-array name="config_shouldAndroidDefaultRotationActivities">
+        <item>com.huodao.hdphone</item>
+        <item>com.duitang.main</item>
+    </string-array>
+    <array name="config_shouldIgnoreOrientationRequestActivities" />
+    <array name="config_shouldIgnoreOrientationRequestPackages" />
+    <array name="config_shouldReConfigActivitiesWhenRelaunch" />
+    <string-array name="config_skipCalculateSystemGestureExclusionWindows">
+        <item>LenovoIME</item>
+    </string-array>
+    <string-array name="config_smart_rotate_camera_rotation_blacklist">
+        <item>com.zui.camera</item>
+        <item>com.google.android.apps.searchlite</item>
+        <item>com.microsoft.office.word</item>
+        <item>com.baidu.homework</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.sohu.inputmethod.sogou</item>
+    </string-array>
+    <array name="config_sms_enabled_locking_shift_tables" />
+    <array name="config_sms_enabled_single_shift_tables" />
+    <string-array name="config_statusBarIcons">
+        <item>@string/status_bar_no_calling</item>
+        <item>@string/status_bar_call_strength</item>
+        <item>@string/status_bar_alarm_clock</item>
+        <item>@string/status_bar_rotate</item>
+        <item>@string/status_bar_headset</item>
+        <item>@string/status_bar_data_saver</item>
+        <item>@string/status_bar_ime</item>
+        <item>@string/status_bar_sync_failing</item>
+        <item>@string/status_bar_sync_active</item>
+        <item>@string/status_bar_nfc</item>
+        <item>@string/status_bar_tty</item>
+        <item>@string/status_bar_speakerphone</item>
+        <item>@string/status_bar_cdma_eri</item>
+        <item>@string/status_bar_data_connection</item>
+        <item>@string/status_bar_phone_evdo_signal</item>
+        <item>@string/status_bar_phone_signal</item>
+        <item>@string/status_bar_secure</item>
+        <item>@string/status_bar_bluetooth</item>
+        <item>@string/status_bar_managed_profile</item>
+        <item>@string/status_bar_cast</item>
+        <item>@string/status_bar_screen_record</item>
+        <item>@string/status_bar_vpn</item>
+        <item>@string/status_bar_camera</item>
+        <item>@string/status_bar_microphone</item>
+        <item>@string/status_bar_location</item>
+        <item>@string/status_bar_mute</item>
+        <item>@string/status_bar_volume</item>
+        <item>@string/status_bar_zen</item>
+        <item>@string/status_bar_ethernet</item>
+        <item>@string/status_bar_wifi</item>
+        <item>@string/status_bar_hotspot</item>
+        <item>@string/status_bar_mobile</item>
+        <item>@string/status_bar_airplane</item>
+        <item>@string/status_bar_battery</item>
+        <item>@string/status_bar_sensors_off</item>
+    </string-array>
+    <string-array name="config_stylus_pen_bigpalm_packages">
+        <item>cn.canva.editor</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.adsk.sketchbook</item>
+        <item>com.axis.drawingdesk.v3</item>
+        <item>com.brakefield.idfree</item>
+        <item>com.brakefield.painter</item>
+        <item>com.bytestorm.artflow</item>
+        <item>com.color365.sketch</item>
+        <item>com.delgeo.desygner</item>
+        <item>com.dencreak.esmemo</item>
+        <item>com.evernote</item>
+        <item>com.eyewind.paperone</item>
+        <item>com.flexcil.flexcilnote</item>
+        <item>com.foxit.mobile.pdf.lite</item>
+        <item>com.goodnotepad.smarttodolistnote</item>
+        <item>com.google.android.keep</item>
+        <item>com.hlg.daydaytobusiness</item>
+        <item>com.infraware.office.link</item>
+        <item>com.jideos.jnotes</item>
+        <item>com.jideos.jnotes.overseas.google</item>
+        <item>com.kdanmobile.android.pdfreader.google.pad</item>
+        <item>com.lenovo.styluspen</item>
+        <item>com.liubowang.drawingboard</item>
+        <item>com.medibang.android.jumppaint</item>
+        <item>com.medibang.android.paint.tablet</item>
+        <item>com.microsoft.office.onenote</item>
+        <item>com.microsoft.office.officehub</item>
+        <item>com.mubu.app</item>
+        <item>com.myscript.calculator</item>
+        <item>com.myscript.calculator.lenovo</item>
+        <item>com.myscript.nebo</item>
+        <item>com.myscript.nebo.lenovo</item>
+        <item>com.newskyer.draw</item>
+        <item>com.orion.notein</item>
+        <item>com.pick.sketchbook</item>
+        <item>com.picsart.draw</item>
+        <item>com.sonymobile.sketch</item>
+        <item>com.steadfastinnovation.android.projectpapyrus</item>
+        <item>com.tayasui.sketches</item>
+        <item>com.tophatch.concepts</item>
+        <item>com.tophatch.concepts.china</item>
+        <item>com.topstack.kilonotes.pad</item>
+        <item>com.ttluoshi.drawapp</item>
+        <item>com.viettran.INKredible</item>
+        <item>com.vistrav.whiteboard</item>
+        <item>com.vson.edraw</item>
+        <item>com.wacom.bamboopapertab</item>
+        <item>com.wacom.signpropdf</item>
+        <item>com.xodo.pdf.reader</item>
+        <item>com.yinxiang</item>
+        <item>com.youdao.note</item>
+        <item>com.zui.notes</item>
+        <item>com.ZWSoft.ZWCAD</item>
+        <item>easynotes.notes.notepad.notebook.privatenotes.note</item>
+        <item>jp.co.celsys.clipstudiopaint.googleplay</item>
+        <item>jp.ne.ibis.ibispaint.app</item>
+        <item>jp.ne.ibis.ibispaintx.app</item>
+        <item>kr.neolab.neonote</item>
+        <item>net.huanci.hsjpro</item>
+    </string-array>
+    <string-array name="config_stylus_pen_game_packages">
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.lolm</item>
+        <item>com.tencent.jkchess</item>
+        <item>com.miHoYo.Yuanshen</item>
+        <item>com.tencent.KiHan</item>
+        <item>cn.jj</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.nianticlabs.pokemongo</item>
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.happyelements.AndroidAnimal</item>
+        <item>com.minitech.miniworld.TMobile.Lenovo</item>
+        <item>com.aligames.kuang.kybc.lenovo</item>
+        <item>com.wepie.snakegame.lenovo</item>
+        <item>com.netease.harrypotter</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>com.ztgame.bob</item>
+        <item>com.minitech.miniworld.TMobile.Lenovo</item>
+        <item>com.google.android.play.games</item>
+        <item>com.dts.freefireth</item>
+        <item>com.roblox.client</item>
+        <item>com.supercell.brawlstars</item>
+        <item>com.innersloth.spacemafia</item>
+        <item>com.mojang.minecraftpe</item>
+        <item>com.tocaboca.tocalifeworld</item>
+        <item>com.topwar.gp</item>
+        <item>com.noodlecake.altosodyssey</item>
+        <item>com.riotgames.league.wildrift</item>
+        <item>com.tencent.ig</item>
+    </string-array>
+    <string-array name="config_stylus_pen_partner_packages">
+        <item>cn.wps.moffice_eng</item>
+        <item>net.huanci.hsjpro</item>
+    </string-array>
+    <string-array name="config_stylus_pen_remote_control_camara_packages">
+        <item>com.lenovotab.camera</item>
+        <item>com.zui.camera</item>
+    </string-array>
+    <string-array name="config_stylus_pen_remote_control_music_packages">
+        <item>com.google.android.apps.youtube.music</item>
+        <item>com.tblenovo.soundrecorder</item>
+        <item>com.tencent.qqmusic</item>
+        <item>com.netease.cloudmusic</item>
+        <item>cn.kuwo.player</item>
+        <item>cmccwm.mobilemusic</item>
+        <item>com.kugou.android</item>
+    </string-array>
+    <string-array name="config_stylus_pen_remote_control_office_packages">
+        <item>com.microsoft.office.officehub</item>
+        <item>com.microsoft.office.officehubrow</item>
+        <item>com.microsoft.office.powerpoint</item>
+        <item>com.google.android.apps.docs.editors.slides</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.mobisystems.office</item>
+        <item>com.infraware.office.link</item>
+    </string-array>
+    <string-array name="config_stylus_pen_remote_control_video_packages">
+        <item>com.google.android.youtube</item>
+        <item>com.qiyi.video</item>
+        <item>tv.danmaku.bili</item>
+    </string-array>
+    <array name="config_supportedDreamComplications" />
+    <integer-array name="config_supported_cellular_usage_settings">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="config_system_condition_providers">
+        <item>countdown</item>
+        <item>schedule</item>
+        <item>event</item>
+    </string-array>
+    <array name="config_telephonyEuiccDeviceCapabilities" />
+    <string-array name="config_telephonyHardware">
+        <item>0,modem,0,0,0,1,1,1</item>
+        <item>1,sim,0,modem</item>
+    </string-array>
+    <array name="config_testLocationProviders" />
+    <array name="config_tether_bluetooth_regexs" />
+    <array name="config_tether_dhcp_range" />
+    <integer-array name="config_tether_upstream_types">
+        <item>1</item>
+        <item>7</item>
+        <item>0</item>
+    </integer-array>
+    <array name="config_tether_usb_regexs" />
+    <array name="config_tether_wifi_regexs" />
+    <string-array name="config_toastCrossUserPackages">
+        <item>android</item>
+        <item>com.android.systemui</item>
+    </string-array>
+    <array name="config_twoDigitNumberPattern" />
+    <string-array name="config_udfps_enroll_stage_thresholds">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>0.875</item>
+    </string-array>
+    <array name="config_udfps_sensor_props" />
+    <array name="config_usbHostDenylist" />
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>20</item>
+    </integer-array>
+    <string-array name="config_vvmSmsFilterRegexes">
+        <item>310004,310010,310012,310013,310590,310890,310910,311110,311270,311271,311272,311273,311274,311275,311276,311277,311278,311279,311280,311281,311282,311283,311284,311285,311286,311287,311288,311289,311390,311480,311481,311482,311483,311484,311485,311486,311487,311488,311489;^//VZWVVM.*</item>
+    </string-array>
+    <array name="config_waterfallCutoutArray">
+        <item>@array/config_mainBuiltInDisplayWaterfallCutout</item>
+        <item>@array/config_secondaryBuiltInDisplayWaterfallCutout</item>
+    </array>
+    <string-array name="config_wearActivityModeRadios">
+        <item>wifi</item>
+    </string-array>
+    <array name="config_wifi_dual_sap_interfaces" />
+    <string-array name="config_windowing_mode_refresh_list">
+        <item>com.youku.phone/com.youku.saosao.activity.CaptureActivity</item>
+        <item>com.tencent.mm/.plugin.fts.ui.FTSMainUI</item>
+    </string-array>
+    <integer-array name="config_zuiClickVibePattern">
+        <item>0</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="config_zuiLongPressVibePattern">
+        <item>0</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="config_zuistability_cached_num">
+        <item>6:32</item>
+        <item>4:24</item>
+        <item>3:8</item>
+    </string-array>
+    <string-array name="crossSimSpnFormats">
+        <item>@string/crossSimFormat_spn</item>
+        <item>@string/crossSimFormat_spn_cross_sim_calling</item>
+    </string-array>
+    <array name="cross_profile_apps" />
+    <array name="dial_string_replace" />
+    <array name="disallowed_apps_managed_device" />
+    <array name="disallowed_apps_managed_profile" />
+    <array name="disallowed_apps_managed_user" />
+    <string-array name="dualtoanotherdual_vibratorid">
+        <item>61_1</item>
+        <item>62_1</item>
+        <item>63_1</item>
+        <item>64_1</item>
+        <item>65_1</item>
+        <item>66_1</item>
+        <item>67_1</item>
+        <item>68_1</item>
+        <item>69_1</item>
+        <item>70_1</item>
+        <item>71_1</item>
+        <item>72_1</item>
+        <item>73_1</item>
+        <item>74_1</item>
+        <item>75_1</item>
+        <item>76_1</item>
+        <item>77_1</item>
+        <item>78_1</item>
+        <item>79_1</item>
+        <item>80_1</item>
+        <item>81_1</item>
+        <item>82_1</item>
+        <item>83_1</item>
+        <item>84_1</item>
+        <item>85_1</item>
+        <item>86_1</item>
+        <item>87_1</item>
+        <item>88_1</item>
+    </string-array>
+    <string-array name="dualtorichtap_vibratorid">
+        <item>2_2</item>
+        <item>21_7</item>
+        <item>22_1</item>
+        <item>23_1</item>
+        <item>25_1</item>
+        <item>26_2</item>
+        <item>27_1</item>
+        <item>31_1</item>
+        <item>33_1</item>
+        <item>35_1</item>
+        <item>39_3</item>
+        <item>40_5</item>
+        <item>43_1</item>
+        <item>44_1</item>
+        <item>46_2</item>
+        <item>47_7</item>
+        <item>49_5</item>
+        <item>50_5</item>
+        <item>60_1</item>
+        <item>62_1</item>
+        <item>63_4</item>
+        <item>64_1</item>
+        <item>65_1</item>
+        <item>66_4</item>
+        <item>71_100</item>
+        <item>72_101</item>
+        <item>81_3</item>
+        <item>82_3</item>
+        <item>83_3</item>
+        <item>84_9</item>
+        <item>85_1</item>
+        <item>86_3</item>
+        <item>87_1</item>
+        <item>88_6</item>
+    </string-array>
+    <array name="face_acquired_vendor" />
+    <array name="face_error_vendor" />
+    <array name="fingerprint_acquired_vendor" />
+    <array name="fingerprint_error_vendor" />
+    <string-array name="font_cts_pkg_list">
+        <item>android.theme.app</item>
+        <item>android.text.cts</item>
+        <item>com.android.cts.testime</item>
+        <item>android.widget.cts</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>36149777</item>
+        <item>-95993398</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
+    <array name="multispace_badge_icons">
+        <item>@drawable/ic_multiple_space_first</item>
+        <item>@drawable/ic_multiple_space_second</item>
+        <item>@drawable/ic_multiple_space_third</item>
+        <item>@drawable/ic_multiple_space_fourth</item>
+        <item>@drawable/ic_multiple_space_security</item>
+    </array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,2,60000,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+    </string-array>
+    <string-array name="network_switch_type_name">
+        <item>mobile data</item>
+        <item>Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Ethernet</item>
+        <item>VPN</item>
+    </string-array>
+    <string-array name="networks_not_clear_data">
+        <item>71203</item>
+        <item>71606</item>
+        <item>71610</item>
+        <item>732101</item>
+    </string-array>
+    <string-array name="no_ems_support_sim_operators">
+        <item>20404;suffix;BAE0000000000000</item>
+    </string-array>
+    <array name="non_removable_euicc_slots" />
+    <string-array name="overleap_app_packages">
+        <item>com.lenovo.lsf</item>
+    </string-array>
+    <array name="policy_exempt_apps" />
+    <array name="preloaded_color_state_lists">
+        <item>@color/primary_text_dark</item>
+        <item>@color/primary_text_dark_disable_only</item>
+        <item>@color/primary_text_dark_nodisable</item>
+        <item>@color/primary_text_disable_only_holo_dark</item>
+        <item>@color/primary_text_disable_only_holo_light</item>
+        <item>@color/primary_text_holo_dark</item>
+        <item>@color/primary_text_holo_light</item>
+        <item>@color/primary_text_light</item>
+        <item>@color/primary_text_light_disable_only</item>
+        <item>@color/primary_text_light_nodisable</item>
+        <item>@color/primary_text_nodisable_holo_dark</item>
+        <item>@color/primary_text_nodisable_holo_light</item>
+        <item>@color/secondary_text_dark</item>
+        <item>@color/secondary_text_dark_nodisable</item>
+        <item>@color/secondary_text_holo_dark</item>
+        <item>@color/secondary_text_holo_light</item>
+        <item>@color/secondary_text_light</item>
+        <item>@color/secondary_text_light_nodisable</item>
+        <item>@color/secondary_text_nodisable_holo_dark</item>
+        <item>@color/secondary_text_nodisable_holo_light</item>
+        <item>@color/secondary_text_nofocus</item>
+        <item>@color/hint_foreground_dark</item>
+        <item>@color/hint_foreground_holo_dark</item>
+        <item>@color/hint_foreground_holo_light</item>
+        <item>@color/hint_foreground_light</item>
+        <item>@color/bright_foreground_light</item>
+        <item>@color/bright_foreground_dark</item>
+        <item>@color/tab_indicator_text</item>
+        <item>#ff000000</item>
+        <item>#00000000</item>
+        <item>#ffffffff</item>
+        <item>@color/background_cache_hint_selector_material_dark</item>
+        <item>@color/background_cache_hint_selector_material_light</item>
+        <item>@color/btn_default_material_dark</item>
+        <item>@color/btn_default_material_light</item>
+        <item>@color/primary_text_disable_only_material_dark</item>
+        <item>@color/primary_text_disable_only_material_light</item>
+        <item>@color/primary_text_material_dark</item>
+        <item>@color/primary_text_material_light</item>
+        <item>@color/search_url_text_material_dark</item>
+        <item>@color/search_url_text_material_light</item>
+    </array>
+    <array name="preloaded_drawables">
+        <item>@drawable/action_bar_item_background_material</item>
+        <item>@drawable/activated_background_material</item>
+        <item>@drawable/btn_borderless_material</item>
+        <item>@drawable/btn_check_material_anim</item>
+        <item>@drawable/btn_colored_material</item>
+        <item>@drawable/btn_default_material</item>
+        <item>@drawable/btn_radio_material_anim</item>
+        <item>@drawable/btn_toggle_material</item>
+        <item>@drawable/control_background_32dp_material</item>
+        <item>@drawable/control_background_40dp_material</item>
+        <item>@drawable/dialog_background_material</item>
+        <item>@drawable/fastscroll_label_left_material</item>
+        <item>@drawable/fastscroll_label_right_material</item>
+        <item>@drawable/fastscroll_thumb_material</item>
+        <item>@drawable/fastscroll_track_material</item>
+        <item>@drawable/floating_popup_background_dark</item>
+        <item>@drawable/floating_popup_background_light</item>
+        <item>@drawable/ic_ab_back_material</item>
+        <item>@drawable/ic_ab_back_material_dark</item>
+        <item>@drawable/ic_ab_back_material_light</item>
+        <item>@drawable/ic_account_circle</item>
+        <item>@drawable/ic_arrow_drop_right_black_24dp</item>
+        <item>@drawable/ic_clear_material</item>
+        <item>@drawable/ic_dialog_alert_material</item>
+        <item>@drawable/ic_go_search_api_material</item>
+        <item>@drawable/ic_menu_copy_material</item>
+        <item>@drawable/ic_menu_cut_material</item>
+        <item>@drawable/ic_menu_moreoverflow_material</item>
+        <item>@drawable/ic_menu_paste_material</item>
+        <item>@drawable/ic_menu_selectall_material</item>
+        <item>@drawable/ic_menu_share_material</item>
+        <item>@drawable/ic_search_api_material</item>
+        <item>@drawable/ic_voice_search_api_material</item>
+        <item>@drawable/item_background_borderless_material</item>
+        <item>@drawable/item_background_borderless_material_dark</item>
+        <item>@drawable/item_background_borderless_material_light</item>
+        <item>@drawable/item_background_material</item>
+        <item>@drawable/item_background_material_dark</item>
+        <item>@drawable/item_background_material_light</item>
+        <item>@drawable/list_choice_background_material</item>
+        <item>@drawable/list_divider_material</item>
+        <item>@drawable/notification_material_action_background</item>
+        <item>@drawable/notification_material_media_action_background</item>
+        <item>@drawable/number_picker_divider_material</item>
+        <item>@drawable/popup_background_material</item>
+        <item>@drawable/progress_horizontal_material</item>
+        <item>@drawable/progress_indeterminate_horizontal_material</item>
+        <item>@drawable/progress_large_material</item>
+        <item>@drawable/progress_medium_material</item>
+        <item>@drawable/progress_small_material</item>
+        <item>@drawable/screen_background_dark</item>
+        <item>@drawable/screen_background_dark_transparent</item>
+        <item>@drawable/screen_background_light</item>
+        <item>@drawable/screen_background_light_transparent</item>
+        <item>@drawable/screen_background_selector_dark</item>
+        <item>@drawable/screen_background_selector_light</item>
+        <item>@drawable/scrollbar_handle_material</item>
+        <item>@drawable/seekbar_thumb_material_anim</item>
+        <item>@drawable/seekbar_tick_mark_material</item>
+        <item>@drawable/seekbar_track_material</item>
+        <item>@drawable/spinner_background_material</item>
+        <item>@drawable/switch_track_material</item>
+        <item>@drawable/tab_indicator_material</item>
+        <item>@drawable/text_cursor_material</item>
+    </array>
+    <array name="preloaded_freeform_multi_window_drawables">
+        <item>@drawable/decor_maximize_button_dark</item>
+        <item>@drawable/decor_maximize_button_light</item>
+    </array>
+    <string-array name="radioAttributes">
+        <item>1,1</item>
+        <item>0,1</item>
+    </string-array>
+    <string-array name="required_apps_managed_device">
+        <item>com.android.settings</item>
+        <item>com.android.systemui</item>
+        <item>com.android.contacts</item>
+        <item>com.android.dialer</item>
+        <item>com.android.stk</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.downloads.ui</item>
+        <item>com.android.documentsui</item>
+        <item>com.android.cellbroadcastreceiver</item>
+    </string-array>
+    <string-array name="required_apps_managed_profile">
+        <item>com.android.contacts</item>
+        <item>com.android.settings</item>
+        <item>com.android.systemui</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.downloads.ui</item>
+        <item>com.android.documentsui</item>
+    </string-array>
+    <string-array name="required_apps_managed_user">
+        <item>com.android.settings</item>
+        <item>com.android.systemui</item>
+        <item>com.android.contacts</item>
+        <item>com.android.dialer</item>
+        <item>com.android.stk</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.downloads.ui</item>
+        <item>com.android.documentsui</item>
+    </string-array>
+    <string-array name="resolver_target_actions_pin">
+        <item>@string/pin_target</item>
+        <item>@string/app_info</item>
+    </string-array>
+    <string-array name="resolver_target_actions_unpin">
+        <item>@string/unpin_target</item>
+        <item>@string/app_info</item>
+    </string-array>
+    <string-array name="ringtone_vibrator">
+        <item>StereoLightWaves_144_1</item>
+        <item>StereoTime_145_1</item>
+        <item>StereoStarlight_146_1</item>
+        <item>StereoInterstellar_147_1</item>
+        <item>StereoLightItUp_148_1</item>
+        <item>StereoTwinkling_149_1</item>
+        <item>StereoDisappear_150_1</item>
+        <item>AGT_151_1</item>
+        <item>StereoAircraft_152_1</item>
+        <item>BaBa_153_1</item>
+        <item>Bloom_154_1</item>
+        <item>Bottle_155_1</item>
+        <item>Bright_156_1</item>
+        <item>CountryGuitar_157_1</item>
+        <item>Di_158_1</item>
+        <item>Drip_159_1</item>
+        <item>Du_160_1</item>
+        <item>Dudu_161_1</item>
+        <item>FleetingTime_162_1</item>
+        <item>Flowering_163_1</item>
+        <item>Fluting_164_1</item>
+        <item>FoodBell_165_1</item>
+        <item>GoGo_166_1</item>
+        <item>StereoMechanical_167_1</item>
+        <item>Mouse_168_1</item>
+        <item>StereoLaser_169_1</item>
+        <item>Ring_170_1</item>
+        <item>StereoWin_171_1</item>
+        <item>Signal_172_1</item>
+        <item>StereoSword_173_1</item>
+        <item>StereoSportsCar_174_1</item>
+        <item>StereoRaceCar_175_1</item>
+        <item>Stable_176_1</item>
+        <item>Strange_177_1</item>
+        <item>Stream_178_1</item>
+        <item>Success_179_1</item>
+        <item>Talk_180_1</item>
+        <item>StereoTechnology_181_1</item>
+        <item>Telly_182_1</item>
+        <item>Tone_183_1</item>
+        <item>Tumbler_184_1</item>
+        <item>StereoFootsteps_185_1</item>
+        <item>Wave_186_1</item>
+        <item>Blinking_187_1</item>
+        <item>BriskMoment_188_1</item>
+        <item>ClassicalPiano_189_1</item>
+        <item>Clear_190_1</item>
+        <item>DalaGuitar_191_1</item>
+        <item>DingDang_192_1</item>
+        <item>DoDaDa_193_1</item>
+        <item>Dreamtime_194_1</item>
+        <item>EarlyMorning_195_1</item>
+        <item>Eighties_196_1</item>
+        <item>FunkyGuitar_197_1</item>
+        <item>Guitar_198_1</item>
+        <item>HappyTime_199_1</item>
+        <item>Home_200_1</item>
+        <item>Jete_201_1</item>
+        <item>Kalimba_202_1</item>
+        <item>Landscape_203_1</item>
+        <item>LullabyPiano_204_1</item>
+        <item>MaLing_205_1</item>
+        <item>MomentofSpirit_206_1</item>
+        <item>PianoNoise_207_1</item>
+        <item>PingPong_208_1</item>
+        <item>RainbowSweet_209_1</item>
+        <item>StereoTravel_210_1</item>
+        <item>StereoSoothing_211_1</item>
+        <item>StereoElves_212_1</item>
+        <item>StereoPsychedelic_213_1</item>
+        <item>StereoDark_214_1</item>
+        <item>StereoPromote_215_1</item>
+        <item>StereoLenovoElectronic_216_1</item>
+        <item>StereoLenovoGaming_217_1</item>
+        <item>StereoLenovoGuitar_218_1</item>
+        <item>StereoLenovoDynamic_219_1</item>
+        <item>StereoLenovoPureTone_220_1</item>
+        <item>StereoLenovoSymphony_221_1</item>
+        <item>StereoTeleport_222_1</item>
+        <item>StereoGameMoment_223_1</item>
+        <item>Silence_224_1</item>
+        <item>SpaceBird_225_1</item>
+        <item>Stars_226_1</item>
+        <item>SunnyDay_227_1</item>
+        <item>SecretGarden_239_1</item>
+    </string-array>
+    <array name="sim_colors">
+        <item>@color/Teal_700</item>
+        <item>@color/Blue_700</item>
+        <item>@color/Indigo_700</item>
+        <item>@color/Purple_700</item>
+        <item>@color/Pink_700</item>
+        <item>@color/Red_700</item>
+    </array>
+    <string-array name="special_locale_codes">
+        <item>ar_EG</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>العربية</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="supported_locales">
+        <item>af-NA</item>
+        <item>af-ZA</item>
+        <item>agq-CM</item>
+        <item>ak-GH</item>
+        <item>am-ET</item>
+        <item>ar-AE</item>
+        <item>ar-AE-u-nu-latn</item>
+        <item>ar-BH</item>
+        <item>ar-BH-u-nu-latn</item>
+        <item>ar-DJ</item>
+        <item>ar-DJ-u-nu-latn</item>
+        <item>ar-DZ</item>
+        <item>ar-DZ-u-nu-arab</item>
+        <item>ar-EG</item>
+        <item>ar-EG-u-nu-latn</item>
+        <item>ar-EH</item>
+        <item>ar-EH-u-nu-arab</item>
+        <item>ar-ER</item>
+        <item>ar-ER-u-nu-latn</item>
+        <item>ar-IL</item>
+        <item>ar-IL-u-nu-latn</item>
+        <item>ar-IQ</item>
+        <item>ar-IQ-u-nu-latn</item>
+        <item>ar-JO</item>
+        <item>ar-JO-u-nu-latn</item>
+        <item>ar-KM</item>
+        <item>ar-KM-u-nu-latn</item>
+        <item>ar-KW</item>
+        <item>ar-KW-u-nu-latn</item>
+        <item>ar-LB</item>
+        <item>ar-LB-u-nu-latn</item>
+        <item>ar-LY</item>
+        <item>ar-LY-u-nu-arab</item>
+        <item>ar-MA</item>
+        <item>ar-MA-u-nu-arab</item>
+        <item>ar-MR</item>
+        <item>ar-MR-u-nu-latn</item>
+        <item>ar-OM</item>
+        <item>ar-OM-u-nu-latn</item>
+        <item>ar-PS</item>
+        <item>ar-PS-u-nu-latn</item>
+        <item>ar-QA</item>
+        <item>ar-QA-u-nu-latn</item>
+        <item>ar-SA</item>
+        <item>ar-SA-u-nu-latn</item>
+        <item>ar-SD</item>
+        <item>ar-SD-u-nu-latn</item>
+        <item>ar-SO</item>
+        <item>ar-SO-u-nu-latn</item>
+        <item>ar-SS</item>
+        <item>ar-SS-u-nu-latn</item>
+        <item>ar-SY</item>
+        <item>ar-SY-u-nu-latn</item>
+        <item>ar-TD</item>
+        <item>ar-TD-u-nu-latn</item>
+        <item>ar-TN</item>
+        <item>ar-TN-u-nu-arab</item>
+        <item>ar-XB</item>
+        <item>ar-YE</item>
+        <item>ar-YE-u-nu-latn</item>
+        <item>as-IN</item>
+        <item>as-IN-u-nu-latn</item>
+        <item>asa-TZ</item>
+        <item>ast-ES</item>
+        <item>az-Cyrl-AZ</item>
+        <item>az-Latn-AZ</item>
+        <item>bas-CM</item>
+        <item>be-BY</item>
+        <item>bem-ZM</item>
+        <item>bez-TZ</item>
+        <item>bg-BG</item>
+        <item>bm-ML</item>
+        <item>bn-BD</item>
+        <item>bn-BD-u-nu-latn</item>
+        <item>bn-IN</item>
+        <item>bn-IN-u-nu-latn</item>
+        <item>bo-CN</item>
+        <item>bo-IN</item>
+        <item>br-FR</item>
+        <item>brx-IN</item>
+        <item>bs-Cyrl-BA</item>
+        <item>bs-Latn-BA</item>
+        <item>ca-AD</item>
+        <item>ca-ES</item>
+        <item>ca-FR</item>
+        <item>ca-IT</item>
+        <item>ce-RU</item>
+        <item>ceb-PH</item>
+        <item>cgg-UG</item>
+        <item>chr-US</item>
+        <item>cs-CZ</item>
+        <item>cy-GB</item>
+        <item>da-DK</item>
+        <item>da-GL</item>
+        <item>dav-KE</item>
+        <item>de-AT</item>
+        <item>de-BE</item>
+        <item>de-CH</item>
+        <item>de-DE</item>
+        <item>de-IT</item>
+        <item>de-LI</item>
+        <item>de-LU</item>
+        <item>dje-NE</item>
+        <item>doi-IN</item>
+        <item>dsb-DE</item>
+        <item>dua-CM</item>
+        <item>dyo-SN</item>
+        <item>dz-BT</item>
+        <item>dz-BT-u-nu-latn</item>
+        <item>ebu-KE</item>
+        <item>ee-GH</item>
+        <item>ee-TG</item>
+        <item>el-CY</item>
+        <item>el-GR</item>
+        <item>en-AE</item>
+        <item>en-AG</item>
+        <item>en-AI</item>
+        <item>en-AS</item>
+        <item>en-AT</item>
+        <item>en-AU</item>
+        <item>en-BB</item>
+        <item>en-BE</item>
+        <item>en-BI</item>
+        <item>en-BM</item>
+        <item>en-BS</item>
+        <item>en-BW</item>
+        <item>en-BZ</item>
+        <item>en-CA</item>
+        <item>en-CC</item>
+        <item>en-CH</item>
+        <item>en-CK</item>
+        <item>en-CM</item>
+        <item>en-CX</item>
+        <item>en-CY</item>
+        <item>en-DE</item>
+        <item>en-DG</item>
+        <item>en-DK</item>
+        <item>en-DM</item>
+        <item>en-ER</item>
+        <item>en-FI</item>
+        <item>en-FJ</item>
+        <item>en-FK</item>
+        <item>en-FM</item>
+        <item>en-GB</item>
+        <item>en-GD</item>
+        <item>en-GG</item>
+        <item>en-GH</item>
+        <item>en-GI</item>
+        <item>en-GM</item>
+        <item>en-GU</item>
+        <item>en-GY</item>
+        <item>en-HK</item>
+        <item>en-IE</item>
+        <item>en-IL</item>
+        <item>en-IM</item>
+        <item>en-IN</item>
+        <item>en-IO</item>
+        <item>en-JE</item>
+        <item>en-JM</item>
+        <item>en-KE</item>
+        <item>en-KI</item>
+        <item>en-KN</item>
+        <item>en-KY</item>
+        <item>en-LC</item>
+        <item>en-LR</item>
+        <item>en-LS</item>
+        <item>en-MG</item>
+        <item>en-MH</item>
+        <item>en-MO</item>
+        <item>en-MP</item>
+        <item>en-MS</item>
+        <item>en-MT</item>
+        <item>en-MU</item>
+        <item>en-MW</item>
+        <item>en-MY</item>
+        <item>en-NA</item>
+        <item>en-NF</item>
+        <item>en-NG</item>
+        <item>en-NL</item>
+        <item>en-NR</item>
+        <item>en-NU</item>
+        <item>en-NZ</item>
+        <item>en-PG</item>
+        <item>en-PH</item>
+        <item>en-PK</item>
+        <item>en-PN</item>
+        <item>en-PR</item>
+        <item>en-PW</item>
+        <item>en-RW</item>
+        <item>en-SB</item>
+        <item>en-SC</item>
+        <item>en-SD</item>
+        <item>en-SE</item>
+        <item>en-SG</item>
+        <item>en-SH</item>
+        <item>en-SI</item>
+        <item>en-SL</item>
+        <item>en-SS</item>
+        <item>en-SX</item>
+        <item>en-SZ</item>
+        <item>en-TC</item>
+        <item>en-TK</item>
+        <item>en-TO</item>
+        <item>en-TT</item>
+        <item>en-TV</item>
+        <item>en-TZ</item>
+        <item>en-UG</item>
+        <item>en-UM</item>
+        <item>en-US</item>
+        <item>en-VC</item>
+        <item>en-VG</item>
+        <item>en-VI</item>
+        <item>en-VU</item>
+        <item>en-WS</item>
+        <item>en-XA</item>
+        <item>en-ZA</item>
+        <item>en-ZM</item>
+        <item>en-ZW</item>
+        <item>es-AR</item>
+        <item>es-BO</item>
+        <item>es-BR</item>
+        <item>es-BZ</item>
+        <item>es-CL</item>
+        <item>es-CO</item>
+        <item>es-CR</item>
+        <item>es-CU</item>
+        <item>es-DO</item>
+        <item>es-EA</item>
+        <item>es-EC</item>
+        <item>es-ES</item>
+        <item>es-GQ</item>
+        <item>es-GT</item>
+        <item>es-HN</item>
+        <item>es-IC</item>
+        <item>es-MX</item>
+        <item>es-NI</item>
+        <item>es-PA</item>
+        <item>es-PE</item>
+        <item>es-PH</item>
+        <item>es-PR</item>
+        <item>es-PY</item>
+        <item>es-SV</item>
+        <item>es-US</item>
+        <item>es-UY</item>
+        <item>es-VE</item>
+        <item>et-EE</item>
+        <item>eu-ES</item>
+        <item>ewo-CM</item>
+        <item>fa-AF</item>
+        <item>fa-AF-u-nu-latn</item>
+        <item>fa-IR</item>
+        <item>fa-IR-u-nu-latn</item>
+        <item>ff-Adlm-BF</item>
+        <item>ff-Adlm-BF-u-nu-latn</item>
+        <item>ff-Adlm-CM</item>
+        <item>ff-Adlm-CM-u-nu-latn</item>
+        <item>ff-Adlm-GH</item>
+        <item>ff-Adlm-GH-u-nu-latn</item>
+        <item>ff-Adlm-GM</item>
+        <item>ff-Adlm-GM-u-nu-latn</item>
+        <item>ff-Adlm-GN</item>
+        <item>ff-Adlm-GN-u-nu-latn</item>
+        <item>ff-Adlm-GW</item>
+        <item>ff-Adlm-GW-u-nu-latn</item>
+        <item>ff-Adlm-LR</item>
+        <item>ff-Adlm-LR-u-nu-latn</item>
+        <item>ff-Adlm-MR</item>
+        <item>ff-Adlm-MR-u-nu-latn</item>
+        <item>ff-Adlm-NE</item>
+        <item>ff-Adlm-NE-u-nu-latn</item>
+        <item>ff-Adlm-NG</item>
+        <item>ff-Adlm-NG-u-nu-latn</item>
+        <item>ff-Adlm-SL</item>
+        <item>ff-Adlm-SL-u-nu-latn</item>
+        <item>ff-Adlm-SN</item>
+        <item>ff-Adlm-SN-u-nu-latn</item>
+        <item>ff-Latn-BF</item>
+        <item>ff-Latn-CM</item>
+        <item>ff-Latn-GH</item>
+        <item>ff-Latn-GM</item>
+        <item>ff-Latn-GN</item>
+        <item>ff-Latn-GW</item>
+        <item>ff-Latn-LR</item>
+        <item>ff-Latn-MR</item>
+        <item>ff-Latn-NE</item>
+        <item>ff-Latn-NG</item>
+        <item>ff-Latn-SL</item>
+        <item>ff-Latn-SN</item>
+        <item>fi-FI</item>
+        <item>fil-PH</item>
+        <item>fo-DK</item>
+        <item>fo-FO</item>
+        <item>fr-BE</item>
+        <item>fr-BF</item>
+        <item>fr-BI</item>
+        <item>fr-BJ</item>
+        <item>fr-BL</item>
+        <item>fr-CA</item>
+        <item>fr-CD</item>
+        <item>fr-CF</item>
+        <item>fr-CG</item>
+        <item>fr-CH</item>
+        <item>fr-CI</item>
+        <item>fr-CM</item>
+        <item>fr-DJ</item>
+        <item>fr-DZ</item>
+        <item>fr-FR</item>
+        <item>fr-GA</item>
+        <item>fr-GF</item>
+        <item>fr-GN</item>
+        <item>fr-GP</item>
+        <item>fr-GQ</item>
+        <item>fr-HT</item>
+        <item>fr-KM</item>
+        <item>fr-LU</item>
+        <item>fr-MA</item>
+        <item>fr-MC</item>
+        <item>fr-MF</item>
+        <item>fr-MG</item>
+        <item>fr-ML</item>
+        <item>fr-MQ</item>
+        <item>fr-MR</item>
+        <item>fr-MU</item>
+        <item>fr-NC</item>
+        <item>fr-NE</item>
+        <item>fr-PF</item>
+        <item>fr-PM</item>
+        <item>fr-RE</item>
+        <item>fr-RW</item>
+        <item>fr-SC</item>
+        <item>fr-SN</item>
+        <item>fr-SY</item>
+        <item>fr-TD</item>
+        <item>fr-TG</item>
+        <item>fr-TN</item>
+        <item>fr-VU</item>
+        <item>fr-WF</item>
+        <item>fr-YT</item>
+        <item>fur-IT</item>
+        <item>fy-NL</item>
+        <item>ga-GB</item>
+        <item>ga-IE</item>
+        <item>gd-GB</item>
+        <item>gl-ES</item>
+        <item>gsw-CH</item>
+        <item>gsw-FR</item>
+        <item>gsw-LI</item>
+        <item>gu-IN</item>
+        <item>guz-KE</item>
+        <item>gv-IM</item>
+        <item>ha-GH</item>
+        <item>ha-NE</item>
+        <item>ha-NG</item>
+        <item>haw-US</item>
+        <item>hi-IN</item>
+        <item>hr-BA</item>
+        <item>hr-HR</item>
+        <item>hsb-DE</item>
+        <item>hu-HU</item>
+        <item>hy-AM</item>
+        <item>ia-001</item>
+        <item>ig-NG</item>
+        <item>ii-CN</item>
+        <item>in-ID</item>
+        <item>is-IS</item>
+        <item>it-CH</item>
+        <item>it-IT</item>
+        <item>it-SM</item>
+        <item>it-VA</item>
+        <item>iw-IL</item>
+        <item>ja-JP</item>
+        <item>jgo-CM</item>
+        <item>jmc-TZ</item>
+        <item>jv-ID</item>
+        <item>ka-GE</item>
+        <item>kab-DZ</item>
+        <item>kam-KE</item>
+        <item>kde-TZ</item>
+        <item>kea-CV</item>
+        <item>khq-ML</item>
+        <item>ki-KE</item>
+        <item>kk-KZ</item>
+        <item>kkj-CM</item>
+        <item>kl-GL</item>
+        <item>kln-KE</item>
+        <item>km-KH</item>
+        <item>kn-IN</item>
+        <item>ko-KP</item>
+        <item>ko-KR</item>
+        <item>kok-IN</item>
+        <item>ksb-TZ</item>
+        <item>ksf-CM</item>
+        <item>ksh-DE</item>
+        <item>kw-GB</item>
+        <item>ky-KG</item>
+        <item>lag-TZ</item>
+        <item>lb-LU</item>
+        <item>lg-UG</item>
+        <item>lkt-US</item>
+        <item>ln-AO</item>
+        <item>ln-CD</item>
+        <item>ln-CF</item>
+        <item>ln-CG</item>
+        <item>lo-LA</item>
+        <item>lt-LT</item>
+        <item>lu-CD</item>
+        <item>luo-KE</item>
+        <item>luy-KE</item>
+        <item>lv-LV</item>
+        <item>mai-IN</item>
+        <item>mas-KE</item>
+        <item>mas-TZ</item>
+        <item>mer-KE</item>
+        <item>mfe-MU</item>
+        <item>mg-MG</item>
+        <item>mgh-MZ</item>
+        <item>mgo-CM</item>
+        <item>mi-NZ</item>
+        <item>mk-MK</item>
+        <item>ml-IN</item>
+        <item>mn-MN</item>
+        <item>mni-IN</item>
+        <item>mni-IN-u-nu-latn</item>
+        <item>mr-IN</item>
+        <item>mr-IN-u-nu-latn</item>
+        <item>ms-BN</item>
+        <item>ms-ID</item>
+        <item>ms-MY</item>
+        <item>ms-SG</item>
+        <item>mt-MT</item>
+        <item>my-MM</item>
+        <item>my-MM-u-nu-latn</item>
+        <item>mzn-IR</item>
+        <item>mzn-IR-u-nu-latn</item>
+        <item>naq-NA</item>
+        <item>nb-NO</item>
+        <item>nb-SJ</item>
+        <item>nd-ZW</item>
+        <item>ne-IN</item>
+        <item>ne-IN-u-nu-latn</item>
+        <item>ne-NP</item>
+        <item>ne-NP-u-nu-latn</item>
+        <item>nl-AW</item>
+        <item>nl-BE</item>
+        <item>nl-BQ</item>
+        <item>nl-CW</item>
+        <item>nl-NL</item>
+        <item>nl-SR</item>
+        <item>nl-SX</item>
+        <item>nn-NO</item>
+        <item>nnh-CM</item>
+        <item>nus-SS</item>
+        <item>nyn-UG</item>
+        <item>om-ET</item>
+        <item>om-KE</item>
+        <item>or-IN</item>
+        <item>os-GE</item>
+        <item>os-RU</item>
+        <item>pa-Arab-PK</item>
+        <item>pa-Arab-PK-u-nu-latn</item>
+        <item>pa-Guru-IN</item>
+        <item>pcm-NG</item>
+        <item>pl-PL</item>
+        <item>ps-AF</item>
+        <item>ps-AF-u-nu-latn</item>
+        <item>ps-PK</item>
+        <item>ps-PK-u-nu-latn</item>
+        <item>pt-AO</item>
+        <item>pt-BR</item>
+        <item>pt-CH</item>
+        <item>pt-CV</item>
+        <item>pt-GQ</item>
+        <item>pt-GW</item>
+        <item>pt-LU</item>
+        <item>pt-MO</item>
+        <item>pt-MZ</item>
+        <item>pt-PT</item>
+        <item>pt-ST</item>
+        <item>pt-TL</item>
+        <item>qu-BO</item>
+        <item>qu-EC</item>
+        <item>qu-PE</item>
+        <item>rm-CH</item>
+        <item>rn-BI</item>
+        <item>ro-MD</item>
+        <item>ro-RO</item>
+        <item>rof-TZ</item>
+        <item>ru-BY</item>
+        <item>ru-KG</item>
+        <item>ru-KZ</item>
+        <item>ru-MD</item>
+        <item>ru-RU</item>
+        <item>ru-UA</item>
+        <item>rw-RW</item>
+        <item>rwk-TZ</item>
+        <item>sa-IN</item>
+        <item>sah-RU</item>
+        <item>saq-KE</item>
+        <item>sat-IN</item>
+        <item>sat-IN-u-nu-latn</item>
+        <item>sbp-TZ</item>
+        <item>sd-Arab-PK</item>
+        <item>sd-Arab-PK-u-nu-latn</item>
+        <item>sd-Deva-IN</item>
+        <item>se-FI</item>
+        <item>se-NO</item>
+        <item>se-SE</item>
+        <item>seh-MZ</item>
+        <item>ses-ML</item>
+        <item>sg-CF</item>
+        <item>si-LK</item>
+        <item>sk-SK</item>
+        <item>sl-SI</item>
+        <item>smn-FI</item>
+        <item>sn-ZW</item>
+        <item>so-DJ</item>
+        <item>so-ET</item>
+        <item>so-KE</item>
+        <item>so-SO</item>
+        <item>sq-AL</item>
+        <item>sq-MK</item>
+        <item>sq-XK</item>
+        <item>sr-Cyrl-BA</item>
+        <item>sr-Cyrl-ME</item>
+        <item>sr-Cyrl-RS</item>
+        <item>sr-Cyrl-XK</item>
+        <item>sr-Latn-BA</item>
+        <item>sr-Latn-ME</item>
+        <item>sr-Latn-RS</item>
+        <item>sr-Latn-XK</item>
+        <item>su-ID</item>
+        <item>sv-AX</item>
+        <item>sv-FI</item>
+        <item>sv-SE</item>
+        <item>sw-CD</item>
+        <item>sw-KE</item>
+        <item>sw-TZ</item>
+        <item>sw-UG</item>
+        <item>ta-IN</item>
+        <item>ta-LK</item>
+        <item>ta-MY</item>
+        <item>ta-SG</item>
+        <item>te-IN</item>
+        <item>teo-KE</item>
+        <item>teo-UG</item>
+        <item>tg-TJ</item>
+        <item>th-TH</item>
+        <item>tk-TM</item>
+        <item>to-TO</item>
+        <item>tr-CY</item>
+        <item>tr-TR</item>
+        <item>tt-RU</item>
+        <item>twq-NE</item>
+        <item>tzm-MA</item>
+        <item>ug-CN</item>
+        <item>uk-UA</item>
+        <item>ur-IN</item>
+        <item>ur-IN-u-nu-latn</item>
+        <item>ur-PK</item>
+        <item>ur-PK-u-nu-arabext</item>
+        <item>uz-Arab-AF</item>
+        <item>uz-Arab-AF-u-nu-latn</item>
+        <item>uz-Cyrl-UZ</item>
+        <item>uz-Latn-UZ</item>
+        <item>vi-VN</item>
+        <item>vun-TZ</item>
+        <item>wae-CH</item>
+        <item>wo-SN</item>
+        <item>xog-UG</item>
+        <item>yav-CM</item>
+        <item>yo-BJ</item>
+        <item>yo-NG</item>
+        <item>yue-Hans-CN</item>
+        <item>yue-Hant-HK</item>
+        <item>zgh-MA</item>
+        <item>zh-Hans-CN</item>
+        <item>zh-Hans-HK</item>
+        <item>zh-Hans-MO</item>
+        <item>zh-Hans-SG</item>
+        <item>zh-Hant-HK</item>
+        <item>zh-Hant-MO</item>
+        <item>zh-Hant-TW</item>
+        <item>zu-ZA</item>
+    </string-array>
+    <string-array name="system_color_cts_pkg_list">
+        <item>android.graphics.cts</item>
+    </string-array>
+    <string-array name="system_error_clear_app_list">
+        <item>com.zui.safecenter</item>
+        <item>com.zui.launcher</item>
+    </string-array>
+    <array name="unloggable_phone_numbers" />
+    <array name="vendor_cross_profile_apps" />
+    <array name="vendor_disallowed_apps_managed_device" />
+    <array name="vendor_disallowed_apps_managed_profile" />
+    <array name="vendor_disallowed_apps_managed_user" />
+    <array name="vendor_policy_exempt_apps" />
+    <array name="vendor_required_apps_managed_device" />
+    <array name="vendor_required_apps_managed_profile" />
+    <array name="vendor_required_apps_managed_user" />
+    <array name="vendor_required_attestation_certificates" />
+    <string-array name="wfcOperatorErrorAlertMessages">
+        <item>To make calls and send messages over Wi-Fi, first ask your carrier to set up this service. Then turn on Wi-Fi calling again from Settings. (Error code: %1$s)</item>
+    </string-array>
+    <string-array name="wfcOperatorErrorNotificationMessages">
+        <item>Issue registering Wi‑Fi calling with your carrier: %1$s</item>
+    </string-array>
+    <string-array name="wfcSpnFormats">
+        <item>@string/wfcSpnFormat_spn</item>
+        <item>@string/wfcSpnFormat_spn_wifi_calling</item>
+        <item>@string/wfcSpnFormat_wlan_call</item>
+        <item>@string/wfcSpnFormat_spn_wlan_call</item>
+        <item>@string/wfcSpnFormat_spn_wifi</item>
+        <item>@string/wfcSpnFormat_wifi_calling_bar_spn</item>
+        <item>@string/wfcSpnFormat_spn_vowifi</item>
+        <item>@string/wfcSpnFormat_wifi_calling</item>
+        <item>@string/wfcSpnFormat_wifi</item>
+        <item>@string/wfcSpnFormat_wifi_calling_wo_hyphen</item>
+        <item>@string/wfcSpnFormat_vowifi</item>
+        <item>@string/wfcSpnFormat_spn_wifi_calling_vo_hyphen</item>
+    </string-array>
+    <array name="wifi_known_signers" />
+    <string-array name="zui_fingerprint_acquired_vendor">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Move your finger away,then touch the sensor again.</item>
+        <item>Different parts of the fingerprint need to be registered each time. Please move your finger around slightly and try again.</item>
+        <item>This fingerprint is already registered. Please use a different finger.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Finger placement should vary slightly each time. Please try again.</item>
+        <item>The finger has been enrolled, please use another finger.</item>
+    </string-array>
+    <array name="zui_fingerprint_error_vendor" />
+    <string-array name="zz_moto_config_desktop_display_black_list">
+        <item>Think A3:LEN:29953</item>
+    </string-array>
+</resources>
